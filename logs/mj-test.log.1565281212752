@@ -1,0 +1,244 @@
+INFO  18:17:03,138 - Compiling source file: C:\Users\User\Desktop\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:17:03,295 - #2 program
+INFO  18:17:03,295 - #46 MJProgram
+INFO  18:17:03,297 - #46 int
+INFO  18:17:03,299 - #46 x
+INFO  18:17:03,301 - #11 ;
+INFO  18:17:03,304 - #46 int
+INFO  18:17:03,307 - #46 y
+INFO  18:17:03,308 - #11 ;
+INFO  18:17:03,308 - #3 {
+INFO  18:17:03,308 - #46 int
+INFO  18:17:03,310 - #46 k
+INFO  18:17:03,311 - #18 (
+INFO  18:17:03,313 - #19 )
+INFO  18:17:03,315 - #46 int
+INFO  18:17:03,317 - #46 c
+INFO  18:17:03,317 - #11 ;
+INFO  18:17:03,320 - #3 {
+INFO  18:17:03,322 - #46 c
+INFO  18:17:03,323 - #8 =
+INFO  18:17:03,327 - #47 2
+INFO  18:17:03,328 - #11 ;
+INFO  18:17:03,334 - #25 return
+INFO  18:17:03,335 - #46 c
+INFO  18:17:03,335 - #41 +
+INFO  18:17:03,336 - #47 2
+INFO  18:17:03,338 - #11 ;
+INFO  18:17:03,339 - #4 }
+INFO  18:17:03,339 - #46 int
+INFO  18:17:03,341 - #46 main
+INFO  18:17:03,341 - #18 (
+INFO  18:17:03,341 - #19 )
+INFO  18:17:03,341 - #3 {
+INFO  18:17:03,341 - #27 print
+INFO  18:17:03,341 - #18 (
+INFO  18:17:03,341 - #47 1
+INFO  18:17:03,342 - #19 )
+INFO  18:17:03,342 - #11 ;
+INFO  18:17:03,342 - #46 x
+INFO  18:17:03,342 - #8 =
+INFO  18:17:03,342 - #46 y
+INFO  18:17:03,342 - #41 +
+INFO  18:17:03,342 - #47 5
+INFO  18:17:03,343 - #41 +
+INFO  18:17:03,343 - #47 3
+INFO  18:17:03,343 - #27 print
+ERROR 18:17:03,343 - 
+Sintaksna greska na liniji 13
+INFO  18:17:03,343 - #18 (
+INFO  18:17:03,343 - #47 2
+INFO  18:17:03,344 - #19 )
+INFO  18:17:03,345 - #11 ;
+INFO  18:17:03,345 - #46 k
+INFO  18:17:03,345 - #18 (
+INFO  18:17:03,345 - #19 )
+ERROR 18:17:03,347 - Greska pri konstrukciji iskaza dodele. Uspesno izvrsen oporavak u liniji 11
+INFO  18:17:03,350 - #11 ;
+INFO  18:17:03,350 - #4 }
+INFO  18:17:03,351 - #4 }
+INFO  18:17:03,382 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Lists(
+    Lists(
+      NoLists(
+      ) [NoLists]
+      ListsItemDerived2(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         x
+          NoSBraces(
+          ) [NoSBraces]
+          NoIdents(
+          ) [NoIdents]
+        ) [VarDecl]
+      ) [ListsItemDerived2]
+    ) [Lists]
+    ListsItemDerived2(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+       y
+        NoSBraces(
+        ) [NoSBraces]
+        NoIdents(
+        ) [NoIdents]
+      ) [VarDecl]
+    ) [ListsItemDerived2]
+  ) [Lists]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        TypeVal(
+          Type(
+           int
+          ) [Type]
+        ) [TypeVal]
+        MethodName(
+         k
+        ) [MethodName]
+        NoFormParams(
+        ) [NoFormParams]
+        VarDecls(
+          NoVarDecl(
+          ) [NoVarDecl]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+           c
+            NoSBraces(
+            ) [NoSBraces]
+            NoIdents(
+            ) [NoIdents]
+          ) [VarDecl]
+        ) [VarDecls]
+        Statements(
+          Statements(
+            NoStatement(
+            ) [NoStatement]
+            MatchedStatement(
+              MatchedDerived1(
+                DesignatorAssignStatement(
+                  Designator(
+                   c
+                    NoDesPars(
+                    ) [NoDesPars]
+                  ) [Designator]
+                  Assignop(
+                  ) [Assignop]
+                  ExprPlus(
+                    Term(
+                      NumConstFac(
+                       2
+                      ) [NumConstFac]
+                      NoMulopFactors(
+                      ) [NoMulopFactors]
+                    ) [Term]
+                    NoAddopTerms(
+                    ) [NoAddopTerms]
+                  ) [ExprPlus]
+                ) [DesignatorAssignStatement]
+              ) [MatchedDerived1]
+            ) [MatchedStatement]
+          ) [Statements]
+          MatchedStatement(
+            ReturnExprStatement(
+              ExprPlus(
+                Term(
+                  DesignatorNoParsFac(
+                    Designator(
+                     c
+                      NoDesPars(
+                      ) [NoDesPars]
+                    ) [Designator]
+                  ) [DesignatorNoParsFac]
+                  NoMulopFactors(
+                  ) [NoMulopFactors]
+                ) [Term]
+                AddopTerms(
+                  Plus(
+                  ) [Plus]
+                  Term(
+                    NumConstFac(
+                     2
+                    ) [NumConstFac]
+                    NoMulopFactors(
+                    ) [NoMulopFactors]
+                  ) [Term]
+                  NoAddopTerms(
+                  ) [NoAddopTerms]
+                ) [AddopTerms]
+              ) [ExprPlus]
+            ) [ReturnExprStatement]
+          ) [MatchedStatement]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      TypeVal(
+        Type(
+         int
+        ) [Type]
+      ) [TypeVal]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            NoStatement(
+            ) [NoStatement]
+            MatchedStatement(
+              PrintStatement(
+                ExprPlus(
+                  Term(
+                    NumConstFac(
+                     1
+                    ) [NumConstFac]
+                    NoMulopFactors(
+                    ) [NoMulopFactors]
+                  ) [Term]
+                  NoAddopTerms(
+                  ) [NoAddopTerms]
+                ) [ExprPlus]
+              ) [PrintStatement]
+            ) [MatchedStatement]
+          ) [Statements]
+          MatchedStatement(
+            MatchedDerived1(
+              DesignatorAssignStatementError(
+              ) [DesignatorAssignStatementError]
+            ) [MatchedDerived1]
+          ) [MatchedStatement]
+        ) [Statements]
+        MatchedStatement(
+          MatchedDerived1(
+            DesignatorParsStatement(
+              Designator(
+               k
+                NoDesPars(
+                ) [NoDesPars]
+              ) [Designator]
+              NoActParamsExist(
+              ) [NoActParamsExist]
+            ) [DesignatorParsStatement]
+          ) [MatchedDerived1]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:17:04,313 - ===================================
+ERROR 18:17:04,321 -  Neuspesno parsiranje

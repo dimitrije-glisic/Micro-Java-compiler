@@ -1,0 +1,942 @@
+INFO  17:50:40,736 - Compiling source file: C:\Users\User\Desktop\pp1lab.templateAST\workspace\MJCompiler\test\test01.mj
+INFO  17:50:40,890 - #2 program
+INFO  17:50:40,892 - #45 MJProgram
+INFO  17:50:40,892 - #45 int
+INFO  17:50:40,892 - #45 c
+INFO  17:50:40,892 - #7 ,
+INFO  17:50:40,892 - #45 x
+INFO  17:50:40,892 - #7 ,
+INFO  17:50:40,892 - #45 y
+INFO  17:50:40,892 - #6 ;
+INFO  17:50:40,892 - #45 bool
+INFO  17:50:40,892 - #45 b
+INFO  17:50:40,900 - #6 ;
+INFO  17:50:40,900 - #5 const
+INFO  17:50:40,900 - #45 int
+INFO  17:50:40,900 - #45 con
+INFO  17:50:40,900 - #8 =
+INFO  17:50:40,900 - #44 1
+INFO  17:50:40,900 - #6 ;
+INFO  17:50:40,902 - #3 {
+INFO  17:50:40,902 - #45 int
+INFO  17:50:40,902 - #45 k
+INFO  17:50:40,902 - #16 (
+INFO  17:50:40,902 - #45 int
+INFO  17:50:40,902 - #45 i
+INFO  17:50:40,902 - #7 ,
+INFO  17:50:40,902 - #45 bool
+INFO  17:50:40,902 - #45 b
+INFO  17:50:40,902 - #17 )
+INFO  17:50:40,902 - #45 int
+INFO  17:50:40,902 - #45 c
+INFO  17:50:40,902 - #7 ,
+INFO  17:50:40,902 - #45 niz
+INFO  17:50:40,902 - #9 [
+INFO  17:50:40,902 - #10 ]
+INFO  17:50:40,902 - #6 ;
+INFO  17:50:40,902 - #3 {
+INFO  17:50:40,910 - #26 print
+INFO  17:50:40,910 - #16 (
+INFO  17:50:40,910 - #45 b
+INFO  17:50:40,910 - #7 ,
+INFO  17:50:40,912 - #44 20
+INFO  17:50:40,912 - #17 )
+INFO  17:50:40,912 - #6 ;
+INFO  17:50:40,912 - #45 niz
+INFO  17:50:40,912 - #8 =
+INFO  17:50:40,912 - #31 new
+INFO  17:50:40,912 - #45 int
+INFO  17:50:40,912 - #9 [
+INFO  17:50:40,912 - #44 3
+INFO  17:50:40,912 - #10 ]
+INFO  17:50:40,912 - #6 ;
+INFO  17:50:40,912 - #45 niz
+INFO  17:50:40,912 - #9 [
+INFO  17:50:40,912 - #44 0
+INFO  17:50:40,912 - #10 ]
+INFO  17:50:40,912 - #8 =
+INFO  17:50:40,912 - #45 i
+INFO  17:50:40,912 - #6 ;
+INFO  17:50:40,912 - #45 niz
+INFO  17:50:40,912 - #9 [
+INFO  17:50:40,920 - #44 1
+INFO  17:50:40,920 - #10 ]
+INFO  17:50:40,920 - #8 =
+INFO  17:50:40,920 - #45 i
+INFO  17:50:40,920 - #27 +
+INFO  17:50:40,920 - #45 niz
+INFO  17:50:40,922 - #9 [
+INFO  17:50:40,922 - #44 0
+INFO  17:50:40,932 - #10 ]
+INFO  17:50:40,932 - #6 ;
+INFO  17:50:40,932 - #45 niz
+INFO  17:50:40,932 - #9 [
+INFO  17:50:40,932 - #44 2
+INFO  17:50:40,932 - #10 ]
+INFO  17:50:40,932 - #42 ++
+INFO  17:50:40,932 - #6 ;
+INFO  17:50:40,932 - #26 print
+INFO  17:50:40,932 - #16 (
+INFO  17:50:40,932 - #45 niz
+INFO  17:50:40,932 - #9 [
+INFO  17:50:40,932 - #44 0
+INFO  17:50:40,932 - #10 ]
+INFO  17:50:40,932 - #17 )
+INFO  17:50:40,932 - #6 ;
+INFO  17:50:40,932 - #26 print
+INFO  17:50:40,932 - #16 (
+INFO  17:50:40,932 - #45 niz
+INFO  17:50:40,932 - #9 [
+INFO  17:50:40,932 - #44 1
+INFO  17:50:40,932 - #10 ]
+INFO  17:50:40,932 - #17 )
+INFO  17:50:40,932 - #6 ;
+INFO  17:50:40,932 - #26 print
+INFO  17:50:40,932 - #16 (
+INFO  17:50:40,932 - #45 niz
+INFO  17:50:40,932 - #9 [
+INFO  17:50:40,940 - #44 2
+INFO  17:50:40,940 - #10 ]
+INFO  17:50:40,940 - #17 )
+INFO  17:50:40,940 - #6 ;
+INFO  17:50:40,940 - #45 c
+INFO  17:50:40,940 - #8 =
+INFO  17:50:40,940 - #44 0
+INFO  17:50:40,940 - #6 ;
+INFO  17:50:40,940 - #24 return
+INFO  17:50:40,940 - #45 c
+INFO  17:50:40,940 - #27 +
+INFO  17:50:40,940 - #44 3
+INFO  17:50:40,940 - #6 ;
+INFO  17:50:40,940 - #4 }
+INFO  17:50:40,942 - #45 int
+INFO  17:50:40,942 - #45 main
+INFO  17:50:40,942 - #16 (
+INFO  17:50:40,942 - #17 )
+INFO  17:50:40,942 - #45 char
+INFO  17:50:40,942 - #45 c
+INFO  17:50:40,942 - #6 ;
+INFO  17:50:40,942 - #3 {
+INFO  17:50:40,942 - #45 b
+INFO  17:50:40,942 - #8 =
+INFO  17:50:40,942 - #45 false
+INFO  17:50:40,942 - #6 ;
+INFO  17:50:40,942 - #26 print
+INFO  17:50:40,942 - #16 (
+INFO  17:50:40,942 - #45 b
+INFO  17:50:40,942 - #17 )
+INFO  17:50:40,942 - #6 ;
+INFO  17:50:40,942 - #45 b
+INFO  17:50:40,942 - #8 =
+INFO  17:50:40,942 - #45 true
+INFO  17:50:40,942 - #6 ;
+INFO  17:50:40,942 - #26 print
+INFO  17:50:40,942 - #16 (
+INFO  17:50:40,942 - #45 b
+INFO  17:50:40,942 - #17 )
+INFO  17:50:40,942 - #6 ;
+INFO  17:50:40,950 - #45 c
+INFO  17:50:40,950 - #8 =
+INFO  17:50:40,950 - #46 a
+INFO  17:50:40,950 - #6 ;
+INFO  17:50:40,950 - #26 print
+INFO  17:50:40,950 - #16 (
+INFO  17:50:40,950 - #45 c
+INFO  17:50:40,950 - #7 ,
+INFO  17:50:40,950 - #44 5
+INFO  17:50:40,950 - #17 )
+INFO  17:50:40,950 - #6 ;
+INFO  17:50:40,952 - #45 y
+INFO  17:50:40,952 - #8 =
+INFO  17:50:40,952 - #44 4
+INFO  17:50:40,952 - #6 ;
+INFO  17:50:40,952 - #45 x
+INFO  17:50:40,952 - #8 =
+INFO  17:50:40,952 - #16 (
+INFO  17:50:40,952 - #45 y
+INFO  17:50:40,952 - #27 +
+INFO  17:50:40,952 - #44 5
+INFO  17:50:40,952 - #17 )
+INFO  17:50:40,952 - #41 %
+INFO  17:50:40,952 - #44 2
+INFO  17:50:40,952 - #39 *
+INFO  17:50:40,952 - #44 3
+INFO  17:50:40,952 - #6 ;
+INFO  17:50:40,952 - #45 x
+INFO  17:50:40,952 - #42 ++
+INFO  17:50:40,952 - #6 ;
+INFO  17:50:40,952 - #26 print
+INFO  17:50:40,952 - #16 (
+INFO  17:50:40,952 - #45 x
+INFO  17:50:40,952 - #7 ,
+INFO  17:50:40,952 - #44 20
+INFO  17:50:40,960 - #17 )
+INFO  17:50:40,960 - #6 ;
+INFO  17:50:40,960 - #45 y
+INFO  17:50:40,960 - #8 =
+INFO  17:50:40,960 - #45 k
+INFO  17:50:40,960 - #16 (
+INFO  17:50:40,960 - #44 1
+INFO  17:50:40,960 - #7 ,
+INFO  17:50:40,960 - #45 b
+INFO  17:50:40,960 - #17 )
+INFO  17:50:40,962 - #6 ;
+INFO  17:50:40,962 - #24 return
+INFO  17:50:40,962 - #45 x
+INFO  17:50:40,962 - #6 ;
+INFO  17:50:40,962 - #4 }
+INFO  17:50:40,962 - #4 }
+INFO  17:50:40,970 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        DeclDerived2(
+          VarDeclGlob(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsGlobal(
+              VarDeclarationsGlobal(
+                SingleVarDeclarationGlobal(
+                  VarDeclGlobItem(
+                   c
+                  ) [VarDeclGlobItem]
+                ) [SingleVarDeclarationGlobal]
+                VarDeclGlobItem(
+                 x
+                ) [VarDeclGlobItem]
+              ) [VarDeclarationsGlobal]
+              VarDeclGlobItem(
+               y
+              ) [VarDeclGlobItem]
+            ) [VarDeclarationsGlobal]
+          ) [VarDeclGlob]
+        ) [DeclDerived2]
+      ) [Declarations]
+      DeclDerived2(
+        VarDeclGlob(
+          Type(
+           bool
+          ) [Type]
+          SingleVarDeclarationGlobal(
+            VarDeclGlobItem(
+             b
+            ) [VarDeclGlobItem]
+          ) [SingleVarDeclarationGlobal]
+        ) [VarDeclGlob]
+      ) [DeclDerived2]
+    ) [Declarations]
+    DeclDerived1(
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        SingleConstDeclaration(
+          ConstNumDeclItem(
+           con
+           1
+          ) [ConstNumDeclItem]
+        ) [SingleConstDeclaration]
+      ) [ConstDecl]
+    ) [DeclDerived1]
+  ) [Declarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDeclPars(
+        MethodDeclTypeT(
+          Type(
+           int
+          ) [Type]
+        ) [MethodDeclTypeT]
+        MethodName(
+         k
+        ) [MethodName]
+        FormParameters(
+          SingleFormParameter(
+            FormParameter(
+              Type(
+               int
+              ) [Type]
+             i
+            ) [FormParameter]
+          ) [SingleFormParameter]
+          FormParameter(
+            Type(
+             bool
+            ) [Type]
+           b
+          ) [FormParameter]
+        ) [FormParameters]
+        VarDecls(
+          NoVarDecl(
+          ) [NoVarDecl]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclarations(
+              SingleVarDeclaration(
+                VarDeclaration(
+                 c
+                ) [VarDeclaration]
+              ) [SingleVarDeclaration]
+              VarDeclItemArray(
+               niz
+              ) [VarDeclItemArray]
+            ) [VarDeclarations]
+          ) [VarDecl]
+        ) [VarDecls]
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            NoStatement(
+                            ) [NoStatement]
+                            MatchedStatement(
+                              PrintExprStatement(
+                                Expression(
+                                  SingleTerm(
+                                    SingleFactor(
+                                      DesignatorFactor(
+                                        DesignatorVar(
+                                         b
+                                        ) [DesignatorVar]
+                                      ) [DesignatorFactor]
+                                    ) [SingleFactor]
+                                  ) [SingleTerm]
+                                ) [Expression]
+                               20
+                              ) [PrintExprStatement]
+                            ) [MatchedStatement]
+                          ) [Statements]
+                          MatchedStatement(
+                            MatchedDerived1(
+                              DesignatorAssignStatement(
+                                DesignatorVar(
+                                 niz
+                                ) [DesignatorVar]
+                                Assignop(
+                                ) [Assignop]
+                                DesignatorAssignStatementExpr(
+                                  Expression(
+                                    SingleTerm(
+                                      SingleFactor(
+                                        NewArrayFactor(
+                                          Type(
+                                           int
+                                          ) [Type]
+                                          Expression(
+                                            SingleTerm(
+                                              SingleFactor(
+                                                NumConstFactor(
+                                                 3
+                                                ) [NumConstFactor]
+                                              ) [SingleFactor]
+                                            ) [SingleTerm]
+                                          ) [Expression]
+                                        ) [NewArrayFactor]
+                                      ) [SingleFactor]
+                                    ) [SingleTerm]
+                                  ) [Expression]
+                                ) [DesignatorAssignStatementExpr]
+                              ) [DesignatorAssignStatement]
+                            ) [MatchedDerived1]
+                          ) [MatchedStatement]
+                        ) [Statements]
+                        MatchedStatement(
+                          MatchedDerived1(
+                            DesignatorAssignStatement(
+                              DesignatorArray(
+                                DesignatorVar(
+                                 niz
+                                ) [DesignatorVar]
+                                Expression(
+                                  SingleTerm(
+                                    SingleFactor(
+                                      NumConstFactor(
+                                       0
+                                      ) [NumConstFactor]
+                                    ) [SingleFactor]
+                                  ) [SingleTerm]
+                                ) [Expression]
+                              ) [DesignatorArray]
+                              Assignop(
+                              ) [Assignop]
+                              DesignatorAssignStatementExpr(
+                                Expression(
+                                  SingleTerm(
+                                    SingleFactor(
+                                      DesignatorFactor(
+                                        DesignatorVar(
+                                         i
+                                        ) [DesignatorVar]
+                                      ) [DesignatorFactor]
+                                    ) [SingleFactor]
+                                  ) [SingleTerm]
+                                ) [Expression]
+                              ) [DesignatorAssignStatementExpr]
+                            ) [DesignatorAssignStatement]
+                          ) [MatchedDerived1]
+                        ) [MatchedStatement]
+                      ) [Statements]
+                      MatchedStatement(
+                        MatchedDerived1(
+                          DesignatorAssignStatement(
+                            DesignatorArray(
+                              DesignatorVar(
+                               niz
+                              ) [DesignatorVar]
+                              Expression(
+                                SingleTerm(
+                                  SingleFactor(
+                                    NumConstFactor(
+                                     1
+                                    ) [NumConstFactor]
+                                  ) [SingleFactor]
+                                ) [SingleTerm]
+                              ) [Expression]
+                            ) [DesignatorArray]
+                            Assignop(
+                            ) [Assignop]
+                            DesignatorAssignStatementExpr(
+                              Expression(
+                                Terms(
+                                  SingleTerm(
+                                    SingleFactor(
+                                      DesignatorFactor(
+                                        DesignatorVar(
+                                         i
+                                        ) [DesignatorVar]
+                                      ) [DesignatorFactor]
+                                    ) [SingleFactor]
+                                  ) [SingleTerm]
+                                  Plus(
+                                  ) [Plus]
+                                  SingleFactor(
+                                    DesignatorFactor(
+                                      DesignatorArray(
+                                        DesignatorVar(
+                                         niz
+                                        ) [DesignatorVar]
+                                        Expression(
+                                          SingleTerm(
+                                            SingleFactor(
+                                              NumConstFactor(
+                                               0
+                                              ) [NumConstFactor]
+                                            ) [SingleFactor]
+                                          ) [SingleTerm]
+                                        ) [Expression]
+                                      ) [DesignatorArray]
+                                    ) [DesignatorFactor]
+                                  ) [SingleFactor]
+                                ) [Terms]
+                              ) [Expression]
+                            ) [DesignatorAssignStatementExpr]
+                          ) [DesignatorAssignStatement]
+                        ) [MatchedDerived1]
+                      ) [MatchedStatement]
+                    ) [Statements]
+                    MatchedStatement(
+                      MatchedDerived1(
+                        DesignatorIncStatement(
+                          DesignatorArray(
+                            DesignatorVar(
+                             niz
+                            ) [DesignatorVar]
+                            Expression(
+                              SingleTerm(
+                                SingleFactor(
+                                  NumConstFactor(
+                                   2
+                                  ) [NumConstFactor]
+                                ) [SingleFactor]
+                              ) [SingleTerm]
+                            ) [Expression]
+                          ) [DesignatorArray]
+                        ) [DesignatorIncStatement]
+                      ) [MatchedDerived1]
+                    ) [MatchedStatement]
+                  ) [Statements]
+                  MatchedStatement(
+                    PrintStatement(
+                      Expression(
+                        SingleTerm(
+                          SingleFactor(
+                            DesignatorFactor(
+                              DesignatorArray(
+                                DesignatorVar(
+                                 niz
+                                ) [DesignatorVar]
+                                Expression(
+                                  SingleTerm(
+                                    SingleFactor(
+                                      NumConstFactor(
+                                       0
+                                      ) [NumConstFactor]
+                                    ) [SingleFactor]
+                                  ) [SingleTerm]
+                                ) [Expression]
+                              ) [DesignatorArray]
+                            ) [DesignatorFactor]
+                          ) [SingleFactor]
+                        ) [SingleTerm]
+                      ) [Expression]
+                    ) [PrintStatement]
+                  ) [MatchedStatement]
+                ) [Statements]
+                MatchedStatement(
+                  PrintStatement(
+                    Expression(
+                      SingleTerm(
+                        SingleFactor(
+                          DesignatorFactor(
+                            DesignatorArray(
+                              DesignatorVar(
+                               niz
+                              ) [DesignatorVar]
+                              Expression(
+                                SingleTerm(
+                                  SingleFactor(
+                                    NumConstFactor(
+                                     1
+                                    ) [NumConstFactor]
+                                  ) [SingleFactor]
+                                ) [SingleTerm]
+                              ) [Expression]
+                            ) [DesignatorArray]
+                          ) [DesignatorFactor]
+                        ) [SingleFactor]
+                      ) [SingleTerm]
+                    ) [Expression]
+                  ) [PrintStatement]
+                ) [MatchedStatement]
+              ) [Statements]
+              MatchedStatement(
+                PrintStatement(
+                  Expression(
+                    SingleTerm(
+                      SingleFactor(
+                        DesignatorFactor(
+                          DesignatorArray(
+                            DesignatorVar(
+                             niz
+                            ) [DesignatorVar]
+                            Expression(
+                              SingleTerm(
+                                SingleFactor(
+                                  NumConstFactor(
+                                   2
+                                  ) [NumConstFactor]
+                                ) [SingleFactor]
+                              ) [SingleTerm]
+                            ) [Expression]
+                          ) [DesignatorArray]
+                        ) [DesignatorFactor]
+                      ) [SingleFactor]
+                    ) [SingleTerm]
+                  ) [Expression]
+                ) [PrintStatement]
+              ) [MatchedStatement]
+            ) [Statements]
+            MatchedStatement(
+              MatchedDerived1(
+                DesignatorAssignStatement(
+                  DesignatorVar(
+                   c
+                  ) [DesignatorVar]
+                  Assignop(
+                  ) [Assignop]
+                  DesignatorAssignStatementExpr(
+                    Expression(
+                      SingleTerm(
+                        SingleFactor(
+                          NumConstFactor(
+                           0
+                          ) [NumConstFactor]
+                        ) [SingleFactor]
+                      ) [SingleTerm]
+                    ) [Expression]
+                  ) [DesignatorAssignStatementExpr]
+                ) [DesignatorAssignStatement]
+              ) [MatchedDerived1]
+            ) [MatchedStatement]
+          ) [Statements]
+          MatchedStatement(
+            ReturnExprStatement(
+              Expression(
+                Terms(
+                  SingleTerm(
+                    SingleFactor(
+                      DesignatorFactor(
+                        DesignatorVar(
+                         c
+                        ) [DesignatorVar]
+                      ) [DesignatorFactor]
+                    ) [SingleFactor]
+                  ) [SingleTerm]
+                  Plus(
+                  ) [Plus]
+                  SingleFactor(
+                    NumConstFactor(
+                     3
+                    ) [NumConstFactor]
+                  ) [SingleFactor]
+                ) [Terms]
+              ) [Expression]
+            ) [ReturnExprStatement]
+          ) [MatchedStatement]
+        ) [Statements]
+      ) [MethodDeclPars]
+    ) [MethodDeclarations]
+    MethodDeclNoPars(
+      MethodDeclTypeT(
+        Type(
+         int
+        ) [Type]
+      ) [MethodDeclTypeT]
+      MethodName(
+       main
+      ) [MethodName]
+      VarDecls(
+        NoVarDecl(
+        ) [NoVarDecl]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          SingleVarDeclaration(
+            VarDeclaration(
+             c
+            ) [VarDeclaration]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [VarDecls]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            Statements(
+                              NoStatement(
+                              ) [NoStatement]
+                              MatchedStatement(
+                                MatchedDerived1(
+                                  DesignatorAssignStatement(
+                                    DesignatorVar(
+                                     b
+                                    ) [DesignatorVar]
+                                    Assignop(
+                                    ) [Assignop]
+                                    DesignatorAssignStatementExpr(
+                                      Expression(
+                                        SingleTerm(
+                                          SingleFactor(
+                                            DesignatorFactor(
+                                              DesignatorVar(
+                                               false
+                                              ) [DesignatorVar]
+                                            ) [DesignatorFactor]
+                                          ) [SingleFactor]
+                                        ) [SingleTerm]
+                                      ) [Expression]
+                                    ) [DesignatorAssignStatementExpr]
+                                  ) [DesignatorAssignStatement]
+                                ) [MatchedDerived1]
+                              ) [MatchedStatement]
+                            ) [Statements]
+                            MatchedStatement(
+                              PrintStatement(
+                                Expression(
+                                  SingleTerm(
+                                    SingleFactor(
+                                      DesignatorFactor(
+                                        DesignatorVar(
+                                         b
+                                        ) [DesignatorVar]
+                                      ) [DesignatorFactor]
+                                    ) [SingleFactor]
+                                  ) [SingleTerm]
+                                ) [Expression]
+                              ) [PrintStatement]
+                            ) [MatchedStatement]
+                          ) [Statements]
+                          MatchedStatement(
+                            MatchedDerived1(
+                              DesignatorAssignStatement(
+                                DesignatorVar(
+                                 b
+                                ) [DesignatorVar]
+                                Assignop(
+                                ) [Assignop]
+                                DesignatorAssignStatementExpr(
+                                  Expression(
+                                    SingleTerm(
+                                      SingleFactor(
+                                        DesignatorFactor(
+                                          DesignatorVar(
+                                           true
+                                          ) [DesignatorVar]
+                                        ) [DesignatorFactor]
+                                      ) [SingleFactor]
+                                    ) [SingleTerm]
+                                  ) [Expression]
+                                ) [DesignatorAssignStatementExpr]
+                              ) [DesignatorAssignStatement]
+                            ) [MatchedDerived1]
+                          ) [MatchedStatement]
+                        ) [Statements]
+                        MatchedStatement(
+                          PrintStatement(
+                            Expression(
+                              SingleTerm(
+                                SingleFactor(
+                                  DesignatorFactor(
+                                    DesignatorVar(
+                                     b
+                                    ) [DesignatorVar]
+                                  ) [DesignatorFactor]
+                                ) [SingleFactor]
+                              ) [SingleTerm]
+                            ) [Expression]
+                          ) [PrintStatement]
+                        ) [MatchedStatement]
+                      ) [Statements]
+                      MatchedStatement(
+                        MatchedDerived1(
+                          DesignatorAssignStatement(
+                            DesignatorVar(
+                             c
+                            ) [DesignatorVar]
+                            Assignop(
+                            ) [Assignop]
+                            DesignatorAssignStatementExpr(
+                              Expression(
+                                SingleTerm(
+                                  SingleFactor(
+                                    CharConstFactor(
+                                     a
+                                    ) [CharConstFactor]
+                                  ) [SingleFactor]
+                                ) [SingleTerm]
+                              ) [Expression]
+                            ) [DesignatorAssignStatementExpr]
+                          ) [DesignatorAssignStatement]
+                        ) [MatchedDerived1]
+                      ) [MatchedStatement]
+                    ) [Statements]
+                    MatchedStatement(
+                      PrintExprStatement(
+                        Expression(
+                          SingleTerm(
+                            SingleFactor(
+                              DesignatorFactor(
+                                DesignatorVar(
+                                 c
+                                ) [DesignatorVar]
+                              ) [DesignatorFactor]
+                            ) [SingleFactor]
+                          ) [SingleTerm]
+                        ) [Expression]
+                       5
+                      ) [PrintExprStatement]
+                    ) [MatchedStatement]
+                  ) [Statements]
+                  MatchedStatement(
+                    MatchedDerived1(
+                      DesignatorAssignStatement(
+                        DesignatorVar(
+                         y
+                        ) [DesignatorVar]
+                        Assignop(
+                        ) [Assignop]
+                        DesignatorAssignStatementExpr(
+                          Expression(
+                            SingleTerm(
+                              SingleFactor(
+                                NumConstFactor(
+                                 4
+                                ) [NumConstFactor]
+                              ) [SingleFactor]
+                            ) [SingleTerm]
+                          ) [Expression]
+                        ) [DesignatorAssignStatementExpr]
+                      ) [DesignatorAssignStatement]
+                    ) [MatchedDerived1]
+                  ) [MatchedStatement]
+                ) [Statements]
+                MatchedStatement(
+                  MatchedDerived1(
+                    DesignatorAssignStatement(
+                      DesignatorVar(
+                       x
+                      ) [DesignatorVar]
+                      Assignop(
+                      ) [Assignop]
+                      DesignatorAssignStatementExpr(
+                        Expression(
+                          SingleTerm(
+                            FactorList(
+                              FactorList(
+                                SingleFactor(
+                                  ExprFactor(
+                                    Expression(
+                                      Terms(
+                                        SingleTerm(
+                                          SingleFactor(
+                                            DesignatorFactor(
+                                              DesignatorVar(
+                                               y
+                                              ) [DesignatorVar]
+                                            ) [DesignatorFactor]
+                                          ) [SingleFactor]
+                                        ) [SingleTerm]
+                                        Plus(
+                                        ) [Plus]
+                                        SingleFactor(
+                                          NumConstFactor(
+                                           5
+                                          ) [NumConstFactor]
+                                        ) [SingleFactor]
+                                      ) [Terms]
+                                    ) [Expression]
+                                  ) [ExprFactor]
+                                ) [SingleFactor]
+                                Divr(
+                                ) [Divr]
+                                NumConstFactor(
+                                 2
+                                ) [NumConstFactor]
+                              ) [FactorList]
+                              Mul(
+                              ) [Mul]
+                              NumConstFactor(
+                               3
+                              ) [NumConstFactor]
+                            ) [FactorList]
+                          ) [SingleTerm]
+                        ) [Expression]
+                      ) [DesignatorAssignStatementExpr]
+                    ) [DesignatorAssignStatement]
+                  ) [MatchedDerived1]
+                ) [MatchedStatement]
+              ) [Statements]
+              MatchedStatement(
+                MatchedDerived1(
+                  DesignatorIncStatement(
+                    DesignatorVar(
+                     x
+                    ) [DesignatorVar]
+                  ) [DesignatorIncStatement]
+                ) [MatchedDerived1]
+              ) [MatchedStatement]
+            ) [Statements]
+            MatchedStatement(
+              PrintExprStatement(
+                Expression(
+                  SingleTerm(
+                    SingleFactor(
+                      DesignatorFactor(
+                        DesignatorVar(
+                         x
+                        ) [DesignatorVar]
+                      ) [DesignatorFactor]
+                    ) [SingleFactor]
+                  ) [SingleTerm]
+                ) [Expression]
+               20
+              ) [PrintExprStatement]
+            ) [MatchedStatement]
+          ) [Statements]
+          MatchedStatement(
+            MatchedDerived1(
+              DesignatorAssignStatement(
+                DesignatorVar(
+                 y
+                ) [DesignatorVar]
+                Assignop(
+                ) [Assignop]
+                DesignatorAssignStatementExpr(
+                  Expression(
+                    SingleTerm(
+                      SingleFactor(
+                        DesignatorParsFactor(
+                          DesignatorVar(
+                           k
+                          ) [DesignatorVar]
+                          ActParametersList(
+                            ActParameters(
+                              SingleActParameter(
+                                Expression(
+                                  SingleTerm(
+                                    SingleFactor(
+                                      NumConstFactor(
+                                       1
+                                      ) [NumConstFactor]
+                                    ) [SingleFactor]
+                                  ) [SingleTerm]
+                                ) [Expression]
+                              ) [SingleActParameter]
+                              Expression(
+                                SingleTerm(
+                                  SingleFactor(
+                                    DesignatorFactor(
+                                      DesignatorVar(
+                                       b
+                                      ) [DesignatorVar]
+                                    ) [DesignatorFactor]
+                                  ) [SingleFactor]
+                                ) [SingleTerm]
+                              ) [Expression]
+                            ) [ActParameters]
+                          ) [ActParametersList]
+                        ) [DesignatorParsFactor]
+                      ) [SingleFactor]
+                    ) [SingleTerm]
+                  ) [Expression]
+                ) [DesignatorAssignStatementExpr]
+              ) [DesignatorAssignStatement]
+            ) [MatchedDerived1]
+          ) [MatchedStatement]
+        ) [Statements]
+        MatchedStatement(
+          ReturnExprStatement(
+            Expression(
+              SingleTerm(
+                SingleFactor(
+                  DesignatorFactor(
+                    DesignatorVar(
+                     x
+                    ) [DesignatorVar]
+                  ) [DesignatorFactor]
+                ) [SingleFactor]
+              ) [SingleTerm]
+            ) [Expression]
+          ) [ReturnExprStatement]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [MethodDeclNoPars]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:50:40,972 - ===================================
+INFO  17:50:40,982 -  Print count calls = 2
+INFO  17:50:40,982 -  Deklarisanih promenljivih ima = 2

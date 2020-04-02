@@ -1,0 +1,470 @@
+
+
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+
+	boolean errorDetected;
+	
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+
+	
+	public void report_info(String message,Object info) {
+		StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.info(msg.toString());
+	}
+	
+:}
+
+init with {:
+	errorDetected = false;
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+terminal PROG, LBRACE, RBRACE, SEMI, LPAREN, RPAREN, EQUAL, RETURN, PLUS, COMMA, PRINT, READ, VOID, DOT;
+
+terminal Integer NUMBER;
+terminal String IDENT;
+terminal Character CHARCONST;
+
+terminal IF, ELSE;
+terminal LBRACK,RBRACK;
+terminal MINUS, MUL, DIV;
+terminal CONST, NEW, PLUSPLUS, MINUSMINUS;
+terminal ENUM, MOD;
+
+terminal EQ, NEQ, GT, GE, LT, LE;
+terminal OR, AND;
+terminal TRUE, FALSE;
+
+terminal FOR, BREAK, CONTINUE;
+
+
+nonterminal DeclarationList, DeclarationPart, VarList, MethodDeclList, VarDecl;
+nonterminal FormPars, StatementList, FormalParamList, FormalParamDecl, Statement;
+nonterminal Addop, ActualPars, ActualParamList;
+nonterminal Matched, Unmatched;
+
+
+nonterminal Mulop, ConstDecl, ConstList, ConstPart;
+
+
+nonterminal EnumDecl, EnumList, FuncCall, StartFuncCall, EndFuncCall;
+
+nonterminal ExprList, IncDec, SecondArg;
+
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ArrayDesignator, rhs, EnumVar, VarPart, ArrName;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName, Program, MethodDecl, ReturnTypeName, SimpleDesignator, ReadDesignator;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Term, FactorList, Factor, TermList, Expr;
+
+
+
+
+nonterminal Condition, ConditionList, ConditionTerm, ConditionFactorList, ConditionFactor, Relop, Else;
+nonterminal AfterElseExpr, Or;
+nonterminal BoolConst;
+nonterminal EndFactor;
+
+nonterminal VarPartComma;
+
+
+nonterminal FStatement;
+
+nonterminal ForStatement, ForCondition, EndFor, StartFor, LeftSemi, RightSemi;
+
+nonterminal VarAssignment, ArrAsignment, VarIncDec, ArrIncDec;
+
+nonterminal Break, Continue;
+
+
+Program ::= (Program) PROG ProgName:p DeclarationList LBRACE MethodDeclList RBRACE;
+
+ProgName ::= (ProgName) IDENT:progName;
+
+DeclarationList ::= (Declarations) DeclarationList DeclarationPart
+			|
+			(NoVarDecl) /* epsilon */
+			;
+
+
+DeclarationPart ::= (VarDeclaration) VarDecl
+				|
+				(ConstDeclaration) ConstDecl
+				|
+				(EnumDeclaration) EnumDecl
+				;
+				
+
+
+EnumDecl ::= (EnumDecl) ENUM IDENT:name LBRACE EnumList RBRACE
+			;
+
+EnumList ::= (EnumIdList)EnumList COMMA EnumVar
+			|
+			(EnumId) EnumVar
+			;
+			
+EnumVar ::= (SimpleEnumVar) IDENT:name
+		|
+		(EnumVarWithAssignment) IDENT:name EQUAL NUMBER				
+		;
+
+
+ConstDecl ::= (ConstDecl) CONST Type:t ConstList SEMI;
+
+ConstList ::= (ConstIdList) ConstList COMMA ConstPart
+			|
+			(ConstIdSimple) ConstPart
+			;
+			
+ConstPart ::= (ConstId) IDENT:constName EQUAL rhs;
+				
+								
+rhs ::= (IntConst) NUMBER:val
+	|
+	(CharConst) CHARCONST:val
+	|
+	(BoolCnst) BoolConst:val
+	;
+ 
+BoolConst ::= (True) TRUE
+			|
+			(False) FALSE
+			;
+
+VarDecl ::= (VarDec) Type:varType VarList SEMI		
+			;
+			
+			
+			
+VarList ::= (VarIdlist) VarPart COMMA VarList
+		|
+		(VarOrArrayId) VarPart		
+		;
+		
+VarPart ::= (VarId) IDENT:varName
+		|
+		(ArrayId) IDENT:arrName LBRACK RBRACK
+		|
+		(VarPartErr) error:err 
+		{: parser.report_info("Izvrsen oporavak u liniji " + errleft, null);  :}
+		;
+
+VarPartComma ::= (VarPartComma) VarPart COMMA;
+		
+		
+Type ::= (Type) IDENT:typeName;
+
+MethodDeclList ::= (MethodDeclarations) MethodDeclList MethodDecl
+				|
+				(NoMethodDecl) /* epsilon */
+				;
+				
+MethodDecl ::= (MethodDecl) ReturnTypeName LPAREN FormPars RPAREN DeclarationList LBRACE StatementList RBRACE;
+
+ReturnTypeName ::= (ReturnType) Type:retType IDENT:methName
+				|
+				(VoidRetType) VOID IDENT:methName
+				;
+
+
+
+
+FormPars ::= (FormParams) FormalParamList
+		  |
+		  (NoFormParam) /* epsilon */
+		  ;
+		  
+FormalParamList ::= (FormalParamDecls) FormalParamList COMMA FormalParamDecl
+				|
+				(SingleFormalParamDecl) FormalParamDecl
+				;
+
+
+FormalParamDecl ::= (FormalSimpleParamDecl) Type:t IDENT:name
+					|
+					(FormalArrParamDecl) Type:t IDENT:name LBRACK RBRACK
+					|
+					(FormalParamErr) error:err 
+					{: parser.report_info("Izvrsen oporavak u liniji " + errleft, null);  :}
+		
+					;
+
+StatementList ::= (Statements) StatementList Statement
+				|
+				(NoStmt) /* epsilon */
+				;
+				
+Statement ::= (MatchedStmt) Matched
+		   |
+		   (UnmatchedStmt) Unmatched
+		   ; 
+
+
+Unmatched ::= (UnmatchedIf) IF LPAREN Condition RPAREN Statement  
+		 	|
+		 	(UnmatchedIfElse) IF LPAREN Condition RPAREN Matched Else Unmatched AfterElseExpr 							
+			|
+			(ForStmnt) ForStatement 
+			;
+
+
+ForStatement ::= (For) FOR LPAREN FStatement LeftSemi ForCondition RightSemi FStatement RPAREN StartFor Statement EndFor
+			;
+
+LeftSemi ::= (LeftSemi) SEMI;
+				
+RightSemi ::= (RightSemi) SEMI;
+
+EndFor ::= (EndFor) /* epsilon */
+		;
+
+StartFor ::= (StartFor) /* epsilon */ ;
+
+
+ForCondition ::= (ForCond) Condition
+				|
+				(NoForCond) /* epsilon */
+				|
+				(ForCondErr) error:err 
+				{: parser.report_info("Izvrsen oporavak u liniji " + errleft, null);  :}
+				;
+
+FStatement ::= (FVarAssignment) VarAssignment
+						|
+						(FArrAsignment) ArrAsignment
+						|
+						(FVarIncDec)  VarIncDec
+		   				|
+		   				(FArrIncDec) ArrIncDec
+		   				|
+						(FFuncCall) FuncCall
+						|
+						(NoFStatement) /* epsilon */
+						;
+						
+
+ 
+ VarAssignment ::= (VarAssignment) SimpleDesignator:d EQUAL Expr:e;
+ 
+ArrAsignment ::= (ArrAsignment) ArrayDesignator:d EQUAL Expr:e ;
+
+VarIncDec ::= (VarIncDec) SimpleDesignator:d IncDec ;
+
+ArrIncDec ::= (ArrIncDec) ArrayDesignator:d IncDec ;
+
+Matched ::= (VarAssign) VarAssignment SEMI
+		   |
+		   (ArrAsign) ArrAsignment SEMI
+		   |
+		   (VarIncDecSt)  VarIncDec SEMI
+		   |
+		   (ArrIncDecSt) ArrIncDec SEMI
+		   |
+		   (ErrorStmt) error SEMI:l
+		   {: parser.report_error("Izvrsen oporavak do ; u liniji " + lleft, null);  :}
+		   |
+		   (PrintStmt) PRINT LPAREN Expr SecondArg RPAREN SEMI
+		   |
+		   (ReadStmt) READ LPAREN ReadDesignator RPAREN SEMI
+		   |
+		   (ReturnExpr) RETURN Expr:t SEMI
+		   |
+		   (ReturnNoExpr) RETURN SEMI
+		   |
+		   (MatchedStatement) IF LPAREN Condition RPAREN Matched Else Matched AfterElseExpr
+		   |
+		   (ProcCall) FuncCall SEMI
+			|
+           (BlockStatement) LBRACE StatementList RBRACE
+           |
+           (BreakStatement) Break SEMI
+           |
+           (ContinueStatement) Continue SEMI
+			;
+
+
+Break ::= (Break) BREAK;
+Continue ::= (Continue) CONTINUE;
+
+Else ::= (Else) ELSE
+		;
+
+AfterElseExpr ::= (AfterElseExpr) /* epsilon */
+				;
+
+ReadDesignator ::= (VarReadDesignator) SimpleDesignator:d
+				|
+				(ArrReadDesignator) ArrayDesignator:d	 
+				;
+				
+				
+SecondArg ::= (SecArg) COMMA NUMBER
+			|
+			(NoSecArg) /*epsilon*/
+			;
+
+IncDec ::= (Inc) PLUSPLUS
+		|
+		(Dec) MINUSMINUS
+		;
+
+
+Condition ::= (Condition) ConditionList:clist
+			;
+
+Or ::= (Or) OR;
+
+ConditionList ::= (ConditionOr) ConditionList Or ConditionTerm 
+				|
+				(SingleCondition) ConditionTerm:cterm
+				;
+		
+ConditionTerm ::= (ConditionTerm) ConditionFactorList:cflist
+				;
+				
+ConditionFactorList ::= (ConditionAnd) ConditionFactorList AND ConditionFactor
+					|
+					(SimpleCondition) ConditionFactor:cf
+					;
+
+ConditionFactor ::= (ConditionFactorWithRelop) Expr:e1 Relop:relop Expr:e2
+				|
+				(SimpleConditionFactor) Expr:e
+				;
+		
+Expr ::= (NormalExpr) TermList:t
+		|
+		(MinusExpr) MINUS TermList:t
+		;
+
+TermList ::= (AddExpr) TermList Addop Term
+			|
+			(TermExpr) Term:t
+			;
+
+
+Term ::= (Term) FactorList:flist;
+
+FactorList ::= (MulopFactor) FactorList Mulop Factor
+			|
+			(SimpleFactor) Factor:f EndFactor
+			;
+			
+EndFactor ::= (EndFactor) /* epsilon */
+			;
+			
+FuncCall ::= (FuncCall) StartFuncCall ActualPars EndFuncCall;
+
+Factor ::= (IntRef) NUMBER
+		|
+		(VarRef) SimpleDesignator:d
+		|
+		(VarRefIncDec) SimpleDesignator:d IncDec
+		|
+		(EnumRef) SimpleDesignator:d DOT IDENT:constName
+		|
+		(ArrRef) ArrayDesignator:d
+		|
+		(ArrRefIncDec) ArrayDesignator:d IncDec
+		|
+		(FuncCallExpr) FuncCall
+		|
+		(CharRef) CHARCONST
+		|
+		(BoolRef) BoolConst:b
+		|
+		(OperNew) NEW Type:t LBRACK Expr:e RBRACK
+        |
+        (ParenthesisExpr) LPAREN Expr:e RPAREN
+        ;
+
+
+StartFuncCall ::= (StartFuncCall) SimpleDesignator:func LPAREN
+				;
+
+EndFuncCall ::= (EndFuncCall) RPAREN
+			;
+
+		
+ActualPars ::= (Actuals) ActualParamList
+			|
+			(NoActuals) /* epsilon */
+			;
+		
+ActualParamList ::= (ActualParamList) Expr:e ExprList;
+				
+ExprList ::= (Exprs) COMMA Expr:e ExprList
+			|
+			(NoExprs) /* epsilon */
+			;
+			
+SimpleDesignator ::= (SimpleDesignator) IDENT:name;
+			
+ArrayDesignator ::= (ArrayDesignator) ArrName LBRACK Expr:e RBRACK;
+			
+ArrName ::= (ArrName) IDENT:name;			
+
+
+Addop ::= (Add) PLUS
+		|
+		(Sub) MINUS
+		;
+		
+Mulop ::= (Mul) MUL
+		|
+		(Div) DIV
+		|
+		(Mod) MOD
+		;
+		
+Relop ::= (Eq) EQ
+		|
+		(Neq) NEQ
+		|
+		(Gt) GT
+		|
+		(Ge) GE
+		|
+		(Lt) LT
+		|
+		(Le) LE
+		;	
+

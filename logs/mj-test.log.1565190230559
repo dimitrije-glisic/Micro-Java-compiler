@@ -1,0 +1,47 @@
+INFO  17:00:23,351 - Compiling source file: C:\Users\User\Desktop\pp1lab.templateAST\workspace\MJCompiler\test\test01.mj
+INFO  17:00:23,483 - #2 program
+INFO  17:00:23,483 - #46 myProgram
+INFO  17:00:23,483 - #46 int
+INFO  17:00:23,483 - #46 l1
+INFO  17:00:23,483 - #11 ;
+INFO  17:00:23,483 - #46 int
+INFO  17:00:23,483 - #46 globArr
+INFO  17:00:23,483 - #12 [
+INFO  17:00:23,483 - #13 ]
+INFO  17:00:23,483 - #11 ;
+INFO  17:00:23,483 - #5 const
+INFO  17:00:23,483 - #46 int
+INFO  17:00:23,483 - #46 N
+INFO  17:00:23,483 - #8 =
+INFO  17:00:23,483 - #47 5
+INFO  17:00:23,483 - #11 ;
+INFO  17:00:23,483 - #3 {
+INFO  17:00:23,498 - #20 void
+INFO  17:00:23,498 - #46 main
+INFO  17:00:23,498 - #18 (
+INFO  17:00:23,498 - #19 )
+INFO  17:00:23,498 - #46 int
+INFO  17:00:23,498 - #46 a
+INFO  17:00:23,498 - #9 ,
+INFO  17:00:23,498 - #46 b
+INFO  17:00:23,498 - #11 ;
+INFO  17:00:23,498 - #46 int
+INFO  17:00:23,498 - #46 v1
+INFO  17:00:23,498 - #11 ;
+INFO  17:00:23,498 - #46 int
+INFO  17:00:23,498 - #46 arr
+INFO  17:00:23,498 - #12 [
+INFO  17:00:23,498 - #13 ]
+INFO  17:00:23,498 - #11 ;
+INFO  17:00:23,498 - #46 int
+INFO  17:00:23,498 - #46 v3
+INFO  17:00:23,498 - #9 ,
+INFO  17:00:23,498 - #46 v2
+INFO  17:00:23,498 - #11 ;
+INFO  17:00:23,498 - #46 char
+INFO  17:00:23,498 - #46 c1
+INFO  17:00:23,498 - #11 ;
+INFO  17:00:23,498 - #3 {
+ERROR 17:00:23,498 - 
+Sintaksna greska na liniji 12
+ERROR 17:00:23,498 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 12

@@ -1,0 +1,10 @@
+INFO  17:42:33,752 - Compiling source file: C:\Users\User\Desktop\pp1lab.templateAST\workspace\MJCompiler\test\test01.mj
+INFO  17:42:33,875 - #2 program
+INFO  17:42:33,875 - #45 myProgram
+INFO  17:42:33,875 - #3 {
+INFO  17:42:33,877 - #45 int
+INFO  17:42:33,878 - #45 a
+INFO  17:42:33,879 - #9 ;
+ERROR 17:42:33,879 - 
+Sintaksna greska na liniji 3
+ERROR 17:42:33,880 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 3

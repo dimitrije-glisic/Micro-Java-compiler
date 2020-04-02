@@ -1,0 +1,20 @@
+INFO  17:35:30,437 - Compiling source file: C:\Users\User\Desktop\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:35:30,559 - #2 program
+INFO  17:35:30,575 - #45 MJProgram
+INFO  17:35:30,575 - #45 int
+INFO  17:35:30,575 - #45 x
+INFO  17:35:30,575 - #9 ;
+INFO  17:35:30,575 - #45 int
+INFO  17:35:30,575 - #45 y
+INFO  17:35:30,575 - #9 ;
+INFO  17:35:30,575 - #3 {
+INFO  17:35:30,575 - #45 int
+INFO  17:35:30,575 - #45 k
+INFO  17:35:30,575 - #16 (
+INFO  17:35:30,575 - #17 )
+INFO  17:35:30,575 - #45 int
+INFO  17:35:30,575 - #45 c
+INFO  17:35:30,575 - #3 {
+ERROR 17:35:30,575 - 
+Sintaksna greska na liniji 4
+ERROR 17:35:30,575 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 4

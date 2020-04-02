@@ -1,0 +1,2025 @@
+INFO  15:23:22,048 - Compiling source file: C:\Users\User\Desktop\pp1lab.templateAST\workspace\MJCompiler\test\test301.mj
+INFO  15:23:22,173 - #2 program
+INFO  15:23:22,173 - #44 test301
+INFO  15:23:22,173 - #8 enum
+INFO  15:23:22,173 - #44 Broj
+INFO  15:23:22,173 - #3 {
+INFO  15:23:22,173 - #44 NULA
+INFO  15:23:22,173 - #7 ,
+INFO  15:23:22,173 - #44 JEDAN
+INFO  15:23:22,173 - #7 ,
+INFO  15:23:22,173 - #44 PET
+INFO  15:23:22,173 - #6 =
+INFO  15:23:22,173 - #45 5
+INFO  15:23:22,173 - #7 ,
+INFO  15:23:22,173 - #44 DESET
+INFO  15:23:22,173 - #6 =
+INFO  15:23:22,173 - #45 10
+INFO  15:23:22,173 - #4 }
+INFO  15:23:22,173 - #5 const
+INFO  15:23:22,189 - #44 int
+INFO  15:23:22,189 - #44 jedan
+INFO  15:23:22,189 - #6 =
+INFO  15:23:22,189 - #45 1
+INFO  15:23:22,189 - #9 ;
+INFO  15:23:22,189 - #5 const
+INFO  15:23:22,189 - #44 int
+INFO  15:23:22,189 - #44 pet
+INFO  15:23:22,189 - #6 =
+INFO  15:23:22,189 - #45 5
+INFO  15:23:22,189 - #9 ;
+INFO  15:23:22,189 - #44 int
+INFO  15:23:22,189 - #44 niz
+INFO  15:23:22,189 - #10 [
+INFO  15:23:22,189 - #11 ]
+INFO  15:23:22,189 - #9 ;
+INFO  15:23:22,189 - #44 char
+INFO  15:23:22,189 - #44 nizch
+INFO  15:23:22,189 - #10 [
+INFO  15:23:22,189 - #11 ]
+INFO  15:23:22,189 - #9 ;
+INFO  15:23:22,189 - #3 {
+INFO  15:23:22,189 - #44 int
+INFO  15:23:22,204 - #44 inc
+INFO  15:23:22,204 - #16 (
+INFO  15:23:22,204 - #44 int
+INFO  15:23:22,204 - #44 broj
+INFO  15:23:22,204 - #17 )
+INFO  15:23:22,204 - #3 {
+INFO  15:23:22,204 - #23 return
+INFO  15:23:22,204 - #44 broj
+INFO  15:23:22,204 - #39 +
+INFO  15:23:22,220 - #44 Broj
+INFO  15:23:22,220 - #32 .
+INFO  15:23:22,220 - #44 JEDAN
+INFO  15:23:22,220 - #9 ;
+INFO  15:23:22,220 - #4 }
+INFO  15:23:22,220 - #18 void
+INFO  15:23:22,220 - #44 mul
+INFO  15:23:22,235 - #16 (
+INFO  15:23:22,235 - #44 int
+INFO  15:23:22,235 - #44 arr
+INFO  15:23:22,235 - #10 [
+INFO  15:23:22,235 - #11 ]
+INFO  15:23:22,235 - #7 ,
+INFO  15:23:22,235 - #44 int
+INFO  15:23:22,235 - #44 index
+INFO  15:23:22,235 - #7 ,
+INFO  15:23:22,235 - #44 int
+INFO  15:23:22,235 - #44 b
+INFO  15:23:22,235 - #17 )
+INFO  15:23:22,235 - #3 {
+INFO  15:23:22,235 - #44 arr
+INFO  15:23:22,235 - #10 [
+INFO  15:23:22,235 - #44 index
+INFO  15:23:22,235 - #11 ]
+INFO  15:23:22,235 - #6 =
+INFO  15:23:22,235 - #44 arr
+INFO  15:23:22,235 - #10 [
+INFO  15:23:22,235 - #44 index
+INFO  15:23:22,235 - #11 ]
+INFO  15:23:22,235 - #43 *
+INFO  15:23:22,235 - #44 b
+INFO  15:23:22,235 - #9 ;
+INFO  15:23:22,235 - #4 }
+INFO  15:23:22,251 - #18 void
+INFO  15:23:22,251 - #44 main
+INFO  15:23:22,251 - #16 (
+INFO  15:23:22,251 - #17 )
+INFO  15:23:22,251 - #44 int
+INFO  15:23:22,251 - #44 bodovi
+INFO  15:23:22,251 - #9 ;
+INFO  15:23:22,251 - #44 Broj
+INFO  15:23:22,251 - #44 nula
+INFO  15:23:22,251 - #7 ,
+INFO  15:23:22,251 - #44 jedan
+INFO  15:23:22,251 - #9 ;
+INFO  15:23:22,251 - #3 {
+INFO  15:23:22,251 - #44 nula
+INFO  15:23:22,251 - #6 =
+INFO  15:23:22,251 - #44 Broj
+INFO  15:23:22,251 - #32 .
+INFO  15:23:22,251 - #44 NULA
+INFO  15:23:22,251 - #9 ;
+INFO  15:23:22,251 - #44 jedan
+INFO  15:23:22,251 - #6 =
+INFO  15:23:22,251 - #44 Broj
+INFO  15:23:22,251 - #32 .
+INFO  15:23:22,251 - #44 JEDAN
+INFO  15:23:22,251 - #9 ;
+INFO  15:23:22,251 - #44 bodovi
+INFO  15:23:22,251 - #6 =
+INFO  15:23:22,251 - #45 0
+INFO  15:23:22,251 - #9 ;
+INFO  15:23:22,251 - #44 bodovi
+INFO  15:23:22,251 - #27 ++
+INFO  15:23:22,251 - #9 ;
+INFO  15:23:22,251 - #44 bodovi
+INFO  15:23:22,251 - #6 =
+INFO  15:23:22,251 - #44 bodovi
+INFO  15:23:22,251 - #39 +
+INFO  15:23:22,251 - #44 jedan
+INFO  15:23:22,251 - #9 ;
+INFO  15:23:22,251 - #44 bodovi
+INFO  15:23:22,251 - #6 =
+INFO  15:23:22,251 - #44 bodovi
+INFO  15:23:22,267 - #43 *
+INFO  15:23:22,267 - #44 pet
+INFO  15:23:22,267 - #9 ;
+INFO  15:23:22,267 - #44 bodovi
+INFO  15:23:22,267 - #28 --
+INFO  15:23:22,267 - #9 ;
+INFO  15:23:22,267 - #25 print
+INFO  15:23:22,267 - #16 (
+INFO  15:23:22,267 - #44 bodovi
+INFO  15:23:22,267 - #17 )
+INFO  15:23:22,267 - #9 ;
+INFO  15:23:22,267 - #44 niz
+INFO  15:23:22,267 - #6 =
+INFO  15:23:22,267 - #31 new
+INFO  15:23:22,267 - #44 int
+INFO  15:23:22,267 - #10 [
+INFO  15:23:22,267 - #45 2
+INFO  15:23:22,267 - #11 ]
+INFO  15:23:22,267 - #9 ;
+INFO  15:23:22,267 - #44 niz
+INFO  15:23:22,267 - #10 [
+INFO  15:23:22,267 - #44 nula
+INFO  15:23:22,267 - #11 ]
+INFO  15:23:22,267 - #6 =
+INFO  15:23:22,267 - #44 pet
+INFO  15:23:22,267 - #9 ;
+INFO  15:23:22,267 - #44 niz
+INFO  15:23:22,267 - #10 [
+INFO  15:23:22,267 - #45 1
+INFO  15:23:22,267 - #11 ]
+INFO  15:23:22,267 - #6 =
+INFO  15:23:22,267 - #44 Broj
+INFO  15:23:22,267 - #32 .
+INFO  15:23:22,267 - #44 DESET
+INFO  15:23:22,267 - #9 ;
+INFO  15:23:22,267 - #44 mul
+INFO  15:23:22,267 - #16 (
+INFO  15:23:22,267 - #44 niz
+INFO  15:23:22,267 - #7 ,
+INFO  15:23:22,267 - #44 inc
+INFO  15:23:22,267 - #16 (
+INFO  15:23:22,267 - #45 0
+INFO  15:23:22,267 - #17 )
+INFO  15:23:22,267 - #7 ,
+INFO  15:23:22,267 - #45 2
+INFO  15:23:22,267 - #17 )
+INFO  15:23:22,267 - #9 ;
+INFO  15:23:22,267 - #44 mul
+INFO  15:23:22,267 - #16 (
+INFO  15:23:22,267 - #44 niz
+INFO  15:23:22,267 - #7 ,
+INFO  15:23:22,267 - #44 Broj
+INFO  15:23:22,267 - #32 .
+INFO  15:23:22,267 - #44 NULA
+INFO  15:23:22,267 - #7 ,
+INFO  15:23:22,267 - #44 inc
+INFO  15:23:22,267 - #16 (
+INFO  15:23:22,267 - #44 inc
+INFO  15:23:22,267 - #16 (
+INFO  15:23:22,267 - #44 Broj
+INFO  15:23:22,267 - #32 .
+INFO  15:23:22,267 - #44 JEDAN
+INFO  15:23:22,267 - #17 )
+INFO  15:23:22,267 - #39 +
+INFO  15:23:22,267 - #45 1
+INFO  15:23:22,267 - #17 )
+INFO  15:23:22,267 - #17 )
+INFO  15:23:22,267 - #9 ;
+INFO  15:23:22,267 - #44 bodovi
+INFO  15:23:22,267 - #6 =
+INFO  15:23:22,267 - #44 niz
+INFO  15:23:22,267 - #10 [
+INFO  15:23:22,267 - #45 1
+INFO  15:23:22,267 - #11 ]
+INFO  15:23:22,267 - #41 /
+INFO  15:23:22,267 - #44 niz
+INFO  15:23:22,267 - #10 [
+INFO  15:23:22,267 - #45 0
+INFO  15:23:22,267 - #11 ]
+INFO  15:23:22,267 - #9 ;
+INFO  15:23:22,267 - #25 print
+INFO  15:23:22,267 - #16 (
+INFO  15:23:22,267 - #44 bodovi
+INFO  15:23:22,267 - #17 )
+INFO  15:23:22,267 - #9 ;
+INFO  15:23:22,267 - #25 print
+INFO  15:23:22,267 - #16 (
+INFO  15:23:22,267 - #44 niz
+INFO  15:23:22,267 - #10 [
+INFO  15:23:22,267 - #44 Broj
+INFO  15:23:22,267 - #32 .
+INFO  15:23:22,282 - #44 JEDAN
+INFO  15:23:22,282 - #11 ]
+INFO  15:23:22,282 - #17 )
+INFO  15:23:22,282 - #9 ;
+INFO  15:23:22,282 - #44 nizch
+INFO  15:23:22,282 - #6 =
+INFO  15:23:22,282 - #31 new
+INFO  15:23:22,282 - #44 char
+INFO  15:23:22,282 - #10 [
+INFO  15:23:22,282 - #45 3
+INFO  15:23:22,282 - #11 ]
+INFO  15:23:22,282 - #9 ;
+INFO  15:23:22,282 - #44 nizch
+INFO  15:23:22,282 - #10 [
+INFO  15:23:22,282 - #45 0
+INFO  15:23:22,282 - #11 ]
+INFO  15:23:22,282 - #6 =
+INFO  15:23:22,282 - #46 a
+INFO  15:23:22,282 - #9 ;
+INFO  15:23:22,282 - #44 nizch
+INFO  15:23:22,282 - #10 [
+INFO  15:23:22,282 - #44 jedan
+INFO  15:23:22,282 - #11 ]
+INFO  15:23:22,282 - #6 =
+INFO  15:23:22,282 - #46 b
+INFO  15:23:22,282 - #9 ;
+INFO  15:23:22,282 - #44 nizch
+INFO  15:23:22,282 - #10 [
+INFO  15:23:22,282 - #44 pet
+INFO  15:23:22,282 - #40 -
+INFO  15:23:22,282 - #45 3
+INFO  15:23:22,282 - #11 ]
+INFO  15:23:22,282 - #6 =
+INFO  15:23:22,282 - #46 c
+INFO  15:23:22,282 - #9 ;
+INFO  15:23:22,282 - #25 print
+INFO  15:23:22,282 - #16 (
+INFO  15:23:22,282 - #44 nizch
+INFO  15:23:22,282 - #10 [
+INFO  15:23:22,282 - #44 inc
+INFO  15:23:22,282 - #16 (
+INFO  15:23:22,282 - #45 0
+INFO  15:23:22,282 - #17 )
+INFO  15:23:22,282 - #11 ]
+INFO  15:23:22,282 - #17 )
+INFO  15:23:22,282 - #9 ;
+INFO  15:23:22,282 - #25 print
+INFO  15:23:22,282 - #16 (
+INFO  15:23:22,282 - #44 nizch
+INFO  15:23:22,282 - #10 [
+INFO  15:23:22,282 - #44 jedan
+INFO  15:23:22,282 - #43 *
+INFO  15:23:22,282 - #45 2
+INFO  15:23:22,282 - #11 ]
+INFO  15:23:22,282 - #17 )
+INFO  15:23:22,282 - #9 ;
+INFO  15:23:22,282 - #44 bodovi
+INFO  15:23:22,282 - #6 =
+INFO  15:23:22,282 - #44 bodovi
+INFO  15:23:22,282 - #39 +
+INFO  15:23:22,282 - #16 (
+INFO  15:23:22,282 - #16 (
+INFO  15:23:22,282 - #44 pet
+INFO  15:23:22,282 - #43 *
+INFO  15:23:22,282 - #44 jedan
+INFO  15:23:22,282 - #40 -
+INFO  15:23:22,282 - #45 1
+INFO  15:23:22,282 - #17 )
+INFO  15:23:22,282 - #43 *
+INFO  15:23:22,282 - #44 inc
+INFO  15:23:22,282 - #16 (
+INFO  15:23:22,282 - #44 Broj
+INFO  15:23:22,282 - #32 .
+INFO  15:23:22,282 - #44 JEDAN
+INFO  15:23:22,282 - #17 )
+INFO  15:23:22,282 - #40 -
+INFO  15:23:22,282 - #16 (
+INFO  15:23:22,282 - #45 3
+INFO  15:23:22,282 - #42 %
+INFO  15:23:22,282 - #45 2
+INFO  15:23:22,298 - #39 +
+INFO  15:23:22,298 - #45 3
+INFO  15:23:22,298 - #43 *
+INFO  15:23:22,298 - #45 2
+INFO  15:23:22,298 - #40 -
+INFO  15:23:22,298 - #45 3
+INFO  15:23:22,298 - #17 )
+INFO  15:23:22,298 - #40 -
+INFO  15:23:22,298 - #44 inc
+INFO  15:23:22,298 - #16 (
+INFO  15:23:22,298 - #44 Broj
+INFO  15:23:22,298 - #32 .
+INFO  15:23:22,298 - #44 NULA
+INFO  15:23:22,298 - #17 )
+INFO  15:23:22,298 - #43 *
+INFO  15:23:22,298 - #45 0
+INFO  15:23:22,298 - #17 )
+INFO  15:23:22,298 - #9 ;
+INFO  15:23:22,298 - #25 print
+INFO  15:23:22,298 - #16 (
+INFO  15:23:22,298 - #44 bodovi
+INFO  15:23:22,298 - #17 )
+INFO  15:23:22,298 - #9 ;
+INFO  15:23:22,298 - #24 read
+INFO  15:23:22,298 - #16 (
+INFO  15:23:22,298 - #44 bodovi
+INFO  15:23:22,298 - #17 )
+INFO  15:23:22,298 - #9 ;
+INFO  15:23:22,298 - #44 bodovi
+INFO  15:23:22,298 - #6 =
+INFO  15:23:22,298 - #44 inc
+INFO  15:23:22,298 - #16 (
+INFO  15:23:22,298 - #44 bodovi
+INFO  15:23:22,298 - #17 )
+INFO  15:23:22,298 - #9 ;
+INFO  15:23:22,298 - #25 print
+INFO  15:23:22,298 - #16 (
+INFO  15:23:22,298 - #44 bodovi
+INFO  15:23:22,298 - #17 )
+INFO  15:23:22,298 - #9 ;
+INFO  15:23:22,298 - #4 }
+INFO  15:23:22,298 - #4 }
+INFO  15:23:22,345 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  Lists(
+    Lists(
+      Lists(
+        Lists(
+          Lists(
+            NoLists(
+            ) [NoLists]
+            ListsItemDerived4(
+              EnumDecl(
+                EnumName(
+                 Broj
+                ) [EnumName]
+                Enums(
+                 NULA
+                  NoNumConstExists(
+                  ) [NoNumConstExists]
+                ) [Enums]
+                EnumValues(
+                  Enums(
+                   JEDAN
+                    NoNumConstExists(
+                    ) [NoNumConstExists]
+                  ) [Enums]
+                  EnumValues(
+                    Enums(
+                     PET
+                      NumConstExists(
+                       5
+                      ) [NumConstExists]
+                    ) [Enums]
+                    EnumValues(
+                      Enums(
+                       DESET
+                        NumConstExists(
+                         10
+                        ) [NumConstExists]
+                      ) [Enums]
+                      NoEnumValues(
+                      ) [NoEnumValues]
+                    ) [EnumValues]
+                  ) [EnumValues]
+                ) [EnumValues]
+              ) [EnumDecl]
+            ) [ListsItemDerived4]
+          ) [Lists]
+          ListsItemDerived1(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              Constant(
+               jedan
+                Const(
+                 1
+                ) [Const]
+              ) [Constant]
+              NoConstValues(
+              ) [NoConstValues]
+            ) [ConstDecl]
+          ) [ListsItemDerived1]
+        ) [Lists]
+        ListsItemDerived1(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            Constant(
+             pet
+              Const(
+               5
+              ) [Const]
+            ) [Constant]
+            NoConstValues(
+            ) [NoConstValues]
+          ) [ConstDecl]
+        ) [ListsItemDerived1]
+      ) [Lists]
+      ListsItemDerived2(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         niz
+          SBraces(
+          ) [SBraces]
+          NoIdents(
+          ) [NoIdents]
+        ) [VarDecl]
+      ) [ListsItemDerived2]
+    ) [Lists]
+    ListsItemDerived2(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+       nizch
+        SBraces(
+        ) [SBraces]
+        NoIdents(
+        ) [NoIdents]
+      ) [VarDecl]
+    ) [ListsItemDerived2]
+  ) [Lists]
+  MethodDeclarations(
+    MethodDeclarations(
+      MethodDeclarations(
+        NoMethodDecl(
+        ) [NoMethodDecl]
+        MethodDecl(
+          TypeVal(
+            Type(
+             int
+            ) [Type]
+          ) [TypeVal]
+          MethodName(
+           inc
+          ) [MethodName]
+          FormParameters(
+            FormPars(
+              Type(
+               int
+              ) [Type]
+             broj
+              NoSBraces(
+              ) [NoSBraces]
+              NoFormIdentsList(
+              ) [NoFormIdentsList]
+            ) [FormPars]
+          ) [FormParameters]
+          NoVarDecl(
+          ) [NoVarDecl]
+          Statements(
+            NoStatement(
+            ) [NoStatement]
+            MatchedStatement(
+              ReturnExprStatement(
+                ExprPlus(
+                  Term(
+                    DesignatorNoParsFac(
+                      Designator(
+                       broj
+                        NoDesPars(
+                        ) [NoDesPars]
+                      ) [Designator]
+                    ) [DesignatorNoParsFac]
+                    NoMulopFactors(
+                    ) [NoMulopFactors]
+                  ) [Term]
+                  AddopTerms(
+                    Plus(
+                    ) [Plus]
+                    Term(
+                      DesignatorNoParsFac(
+                        Designator(
+                         Broj
+                          DesPars(
+                            DesignValuesDerived1(
+                             JEDAN
+                            ) [DesignValuesDerived1]
+                            NoDesPars(
+                            ) [NoDesPars]
+                          ) [DesPars]
+                        ) [Designator]
+                      ) [DesignatorNoParsFac]
+                      NoMulopFactors(
+                      ) [NoMulopFactors]
+                    ) [Term]
+                    NoAddopTerms(
+                    ) [NoAddopTerms]
+                  ) [AddopTerms]
+                ) [ExprPlus]
+              ) [ReturnExprStatement]
+            ) [MatchedStatement]
+          ) [Statements]
+        ) [MethodDecl]
+      ) [MethodDeclarations]
+      MethodDecl(
+        VoidVal(
+        ) [VoidVal]
+        MethodName(
+         mul
+        ) [MethodName]
+        FormParameters(
+          FormPars(
+            Type(
+             int
+            ) [Type]
+           arr
+            SBraces(
+            ) [SBraces]
+            FormIdentifiersList(
+              Type(
+               int
+              ) [Type]
+             index
+              NoSBraces(
+              ) [NoSBraces]
+              FormIdentifiersList(
+                Type(
+                 int
+                ) [Type]
+               b
+                NoSBraces(
+                ) [NoSBraces]
+                NoFormIdentsList(
+                ) [NoFormIdentsList]
+              ) [FormIdentifiersList]
+            ) [FormIdentifiersList]
+          ) [FormPars]
+        ) [FormParameters]
+        NoVarDecl(
+        ) [NoVarDecl]
+        Statements(
+          NoStatement(
+          ) [NoStatement]
+          MatchedStatement(
+            MatchedDerived1(
+              DesignatorAssignStatement(
+                Designator(
+                 arr
+                  DesPars(
+                    DesignValuesDerived2(
+                      ExprPlus(
+                        Term(
+                          DesignatorNoParsFac(
+                            Designator(
+                             index
+                              NoDesPars(
+                              ) [NoDesPars]
+                            ) [Designator]
+                          ) [DesignatorNoParsFac]
+                          NoMulopFactors(
+                          ) [NoMulopFactors]
+                        ) [Term]
+                        NoAddopTerms(
+                        ) [NoAddopTerms]
+                      ) [ExprPlus]
+                    ) [DesignValuesDerived2]
+                    NoDesPars(
+                    ) [NoDesPars]
+                  ) [DesPars]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                ExprPlus(
+                  Term(
+                    DesignatorNoParsFac(
+                      Designator(
+                       arr
+                        DesPars(
+                          DesignValuesDerived2(
+                            ExprPlus(
+                              Term(
+                                DesignatorNoParsFac(
+                                  Designator(
+                                   index
+                                    NoDesPars(
+                                    ) [NoDesPars]
+                                  ) [Designator]
+                                ) [DesignatorNoParsFac]
+                                NoMulopFactors(
+                                ) [NoMulopFactors]
+                              ) [Term]
+                              NoAddopTerms(
+                              ) [NoAddopTerms]
+                            ) [ExprPlus]
+                          ) [DesignValuesDerived2]
+                          NoDesPars(
+                          ) [NoDesPars]
+                        ) [DesPars]
+                      ) [Designator]
+                    ) [DesignatorNoParsFac]
+                    MulopFactors(
+                      Mul(
+                      ) [Mul]
+                      DesignatorNoParsFac(
+                        Designator(
+                         b
+                          NoDesPars(
+                          ) [NoDesPars]
+                        ) [Designator]
+                      ) [DesignatorNoParsFac]
+                      NoMulopFactors(
+                      ) [NoMulopFactors]
+                    ) [MulopFactors]
+                  ) [Term]
+                  NoAddopTerms(
+                  ) [NoAddopTerms]
+                ) [ExprPlus]
+              ) [DesignatorAssignStatement]
+            ) [MatchedDerived1]
+          ) [MatchedStatement]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      VoidVal(
+      ) [VoidVal]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDecls(
+        VarDecls(
+          NoVarDecl(
+          ) [NoVarDecl]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+           bodovi
+            NoSBraces(
+            ) [NoSBraces]
+            NoIdents(
+            ) [NoIdents]
+          ) [VarDecl]
+        ) [VarDecls]
+        VarDecl(
+          Type(
+           Broj
+          ) [Type]
+         nula
+          NoSBraces(
+          ) [NoSBraces]
+          Idents(
+           jedan
+            NoSBraces(
+            ) [NoSBraces]
+            NoIdents(
+            ) [NoIdents]
+          ) [Idents]
+        ) [VarDecl]
+      ) [VarDecls]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            Statements(
+                              Statements(
+                                Statements(
+                                  Statements(
+                                    Statements(
+                                      Statements(
+                                        Statements(
+                                          Statements(
+                                            Statements(
+                                              Statements(
+                                                Statements(
+                                                  Statements(
+                                                    Statements(
+                                                      Statements(
+                                                        Statements(
+                                                          Statements(
+                                                            NoStatement(
+                                                            ) [NoStatement]
+                                                            MatchedStatement(
+                                                              MatchedDerived1(
+                                                                DesignatorAssignStatement(
+                                                                  Designator(
+                                                                   nula
+                                                                    NoDesPars(
+                                                                    ) [NoDesPars]
+                                                                  ) [Designator]
+                                                                  Assignop(
+                                                                  ) [Assignop]
+                                                                  ExprPlus(
+                                                                    Term(
+                                                                      DesignatorNoParsFac(
+                                                                        Designator(
+                                                                         Broj
+                                                                          DesPars(
+                                                                            DesignValuesDerived1(
+                                                                             NULA
+                                                                            ) [DesignValuesDerived1]
+                                                                            NoDesPars(
+                                                                            ) [NoDesPars]
+                                                                          ) [DesPars]
+                                                                        ) [Designator]
+                                                                      ) [DesignatorNoParsFac]
+                                                                      NoMulopFactors(
+                                                                      ) [NoMulopFactors]
+                                                                    ) [Term]
+                                                                    NoAddopTerms(
+                                                                    ) [NoAddopTerms]
+                                                                  ) [ExprPlus]
+                                                                ) [DesignatorAssignStatement]
+                                                              ) [MatchedDerived1]
+                                                            ) [MatchedStatement]
+                                                          ) [Statements]
+                                                          MatchedStatement(
+                                                            MatchedDerived1(
+                                                              DesignatorAssignStatement(
+                                                                Designator(
+                                                                 jedan
+                                                                  NoDesPars(
+                                                                  ) [NoDesPars]
+                                                                ) [Designator]
+                                                                Assignop(
+                                                                ) [Assignop]
+                                                                ExprPlus(
+                                                                  Term(
+                                                                    DesignatorNoParsFac(
+                                                                      Designator(
+                                                                       Broj
+                                                                        DesPars(
+                                                                          DesignValuesDerived1(
+                                                                           JEDAN
+                                                                          ) [DesignValuesDerived1]
+                                                                          NoDesPars(
+                                                                          ) [NoDesPars]
+                                                                        ) [DesPars]
+                                                                      ) [Designator]
+                                                                    ) [DesignatorNoParsFac]
+                                                                    NoMulopFactors(
+                                                                    ) [NoMulopFactors]
+                                                                  ) [Term]
+                                                                  NoAddopTerms(
+                                                                  ) [NoAddopTerms]
+                                                                ) [ExprPlus]
+                                                              ) [DesignatorAssignStatement]
+                                                            ) [MatchedDerived1]
+                                                          ) [MatchedStatement]
+                                                        ) [Statements]
+                                                        MatchedStatement(
+                                                          MatchedDerived1(
+                                                            DesignatorAssignStatement(
+                                                              Designator(
+                                                               bodovi
+                                                                NoDesPars(
+                                                                ) [NoDesPars]
+                                                              ) [Designator]
+                                                              Assignop(
+                                                              ) [Assignop]
+                                                              ExprPlus(
+                                                                Term(
+                                                                  NumConstFac(
+                                                                   0
+                                                                  ) [NumConstFac]
+                                                                  NoMulopFactors(
+                                                                  ) [NoMulopFactors]
+                                                                ) [Term]
+                                                                NoAddopTerms(
+                                                                ) [NoAddopTerms]
+                                                              ) [ExprPlus]
+                                                            ) [DesignatorAssignStatement]
+                                                          ) [MatchedDerived1]
+                                                        ) [MatchedStatement]
+                                                      ) [Statements]
+                                                      MatchedStatement(
+                                                        MatchedDerived1(
+                                                          DesignatorIncStatement(
+                                                            Designator(
+                                                             bodovi
+                                                              NoDesPars(
+                                                              ) [NoDesPars]
+                                                            ) [Designator]
+                                                          ) [DesignatorIncStatement]
+                                                        ) [MatchedDerived1]
+                                                      ) [MatchedStatement]
+                                                    ) [Statements]
+                                                    MatchedStatement(
+                                                      MatchedDerived1(
+                                                        DesignatorAssignStatement(
+                                                          Designator(
+                                                           bodovi
+                                                            NoDesPars(
+                                                            ) [NoDesPars]
+                                                          ) [Designator]
+                                                          Assignop(
+                                                          ) [Assignop]
+                                                          ExprPlus(
+                                                            Term(
+                                                              DesignatorNoParsFac(
+                                                                Designator(
+                                                                 bodovi
+                                                                  NoDesPars(
+                                                                  ) [NoDesPars]
+                                                                ) [Designator]
+                                                              ) [DesignatorNoParsFac]
+                                                              NoMulopFactors(
+                                                              ) [NoMulopFactors]
+                                                            ) [Term]
+                                                            AddopTerms(
+                                                              Plus(
+                                                              ) [Plus]
+                                                              Term(
+                                                                DesignatorNoParsFac(
+                                                                  Designator(
+                                                                   jedan
+                                                                    NoDesPars(
+                                                                    ) [NoDesPars]
+                                                                  ) [Designator]
+                                                                ) [DesignatorNoParsFac]
+                                                                NoMulopFactors(
+                                                                ) [NoMulopFactors]
+                                                              ) [Term]
+                                                              NoAddopTerms(
+                                                              ) [NoAddopTerms]
+                                                            ) [AddopTerms]
+                                                          ) [ExprPlus]
+                                                        ) [DesignatorAssignStatement]
+                                                      ) [MatchedDerived1]
+                                                    ) [MatchedStatement]
+                                                  ) [Statements]
+                                                  MatchedStatement(
+                                                    MatchedDerived1(
+                                                      DesignatorAssignStatement(
+                                                        Designator(
+                                                         bodovi
+                                                          NoDesPars(
+                                                          ) [NoDesPars]
+                                                        ) [Designator]
+                                                        Assignop(
+                                                        ) [Assignop]
+                                                        ExprPlus(
+                                                          Term(
+                                                            DesignatorNoParsFac(
+                                                              Designator(
+                                                               bodovi
+                                                                NoDesPars(
+                                                                ) [NoDesPars]
+                                                              ) [Designator]
+                                                            ) [DesignatorNoParsFac]
+                                                            MulopFactors(
+                                                              Mul(
+                                                              ) [Mul]
+                                                              DesignatorNoParsFac(
+                                                                Designator(
+                                                                 pet
+                                                                  NoDesPars(
+                                                                  ) [NoDesPars]
+                                                                ) [Designator]
+                                                              ) [DesignatorNoParsFac]
+                                                              NoMulopFactors(
+                                                              ) [NoMulopFactors]
+                                                            ) [MulopFactors]
+                                                          ) [Term]
+                                                          NoAddopTerms(
+                                                          ) [NoAddopTerms]
+                                                        ) [ExprPlus]
+                                                      ) [DesignatorAssignStatement]
+                                                    ) [MatchedDerived1]
+                                                  ) [MatchedStatement]
+                                                ) [Statements]
+                                                MatchedStatement(
+                                                  MatchedDerived1(
+                                                    DesignatorDecStatement(
+                                                      Designator(
+                                                       bodovi
+                                                        NoDesPars(
+                                                        ) [NoDesPars]
+                                                      ) [Designator]
+                                                    ) [DesignatorDecStatement]
+                                                  ) [MatchedDerived1]
+                                                ) [MatchedStatement]
+                                              ) [Statements]
+                                              MatchedStatement(
+                                                PrintStatement(
+                                                  ExprPlus(
+                                                    Term(
+                                                      DesignatorNoParsFac(
+                                                        Designator(
+                                                         bodovi
+                                                          NoDesPars(
+                                                          ) [NoDesPars]
+                                                        ) [Designator]
+                                                      ) [DesignatorNoParsFac]
+                                                      NoMulopFactors(
+                                                      ) [NoMulopFactors]
+                                                    ) [Term]
+                                                    NoAddopTerms(
+                                                    ) [NoAddopTerms]
+                                                  ) [ExprPlus]
+                                                ) [PrintStatement]
+                                              ) [MatchedStatement]
+                                            ) [Statements]
+                                            MatchedStatement(
+                                              MatchedDerived1(
+                                                DesignatorAssignStatement(
+                                                  Designator(
+                                                   niz
+                                                    NoDesPars(
+                                                    ) [NoDesPars]
+                                                  ) [Designator]
+                                                  Assignop(
+                                                  ) [Assignop]
+                                                  ExprPlus(
+                                                    Term(
+                                                      NewParamFac(
+                                                        Type(
+                                                         int
+                                                        ) [Type]
+                                                        ExprPlus(
+                                                          Term(
+                                                            NumConstFac(
+                                                             2
+                                                            ) [NumConstFac]
+                                                            NoMulopFactors(
+                                                            ) [NoMulopFactors]
+                                                          ) [Term]
+                                                          NoAddopTerms(
+                                                          ) [NoAddopTerms]
+                                                        ) [ExprPlus]
+                                                      ) [NewParamFac]
+                                                      NoMulopFactors(
+                                                      ) [NoMulopFactors]
+                                                    ) [Term]
+                                                    NoAddopTerms(
+                                                    ) [NoAddopTerms]
+                                                  ) [ExprPlus]
+                                                ) [DesignatorAssignStatement]
+                                              ) [MatchedDerived1]
+                                            ) [MatchedStatement]
+                                          ) [Statements]
+                                          MatchedStatement(
+                                            MatchedDerived1(
+                                              DesignatorAssignStatement(
+                                                Designator(
+                                                 niz
+                                                  DesPars(
+                                                    DesignValuesDerived2(
+                                                      ExprPlus(
+                                                        Term(
+                                                          DesignatorNoParsFac(
+                                                            Designator(
+                                                             nula
+                                                              NoDesPars(
+                                                              ) [NoDesPars]
+                                                            ) [Designator]
+                                                          ) [DesignatorNoParsFac]
+                                                          NoMulopFactors(
+                                                          ) [NoMulopFactors]
+                                                        ) [Term]
+                                                        NoAddopTerms(
+                                                        ) [NoAddopTerms]
+                                                      ) [ExprPlus]
+                                                    ) [DesignValuesDerived2]
+                                                    NoDesPars(
+                                                    ) [NoDesPars]
+                                                  ) [DesPars]
+                                                ) [Designator]
+                                                Assignop(
+                                                ) [Assignop]
+                                                ExprPlus(
+                                                  Term(
+                                                    DesignatorNoParsFac(
+                                                      Designator(
+                                                       pet
+                                                        NoDesPars(
+                                                        ) [NoDesPars]
+                                                      ) [Designator]
+                                                    ) [DesignatorNoParsFac]
+                                                    NoMulopFactors(
+                                                    ) [NoMulopFactors]
+                                                  ) [Term]
+                                                  NoAddopTerms(
+                                                  ) [NoAddopTerms]
+                                                ) [ExprPlus]
+                                              ) [DesignatorAssignStatement]
+                                            ) [MatchedDerived1]
+                                          ) [MatchedStatement]
+                                        ) [Statements]
+                                        MatchedStatement(
+                                          MatchedDerived1(
+                                            DesignatorAssignStatement(
+                                              Designator(
+                                               niz
+                                                DesPars(
+                                                  DesignValuesDerived2(
+                                                    ExprPlus(
+                                                      Term(
+                                                        NumConstFac(
+                                                         1
+                                                        ) [NumConstFac]
+                                                        NoMulopFactors(
+                                                        ) [NoMulopFactors]
+                                                      ) [Term]
+                                                      NoAddopTerms(
+                                                      ) [NoAddopTerms]
+                                                    ) [ExprPlus]
+                                                  ) [DesignValuesDerived2]
+                                                  NoDesPars(
+                                                  ) [NoDesPars]
+                                                ) [DesPars]
+                                              ) [Designator]
+                                              Assignop(
+                                              ) [Assignop]
+                                              ExprPlus(
+                                                Term(
+                                                  DesignatorNoParsFac(
+                                                    Designator(
+                                                     Broj
+                                                      DesPars(
+                                                        DesignValuesDerived1(
+                                                         DESET
+                                                        ) [DesignValuesDerived1]
+                                                        NoDesPars(
+                                                        ) [NoDesPars]
+                                                      ) [DesPars]
+                                                    ) [Designator]
+                                                  ) [DesignatorNoParsFac]
+                                                  NoMulopFactors(
+                                                  ) [NoMulopFactors]
+                                                ) [Term]
+                                                NoAddopTerms(
+                                                ) [NoAddopTerms]
+                                              ) [ExprPlus]
+                                            ) [DesignatorAssignStatement]
+                                          ) [MatchedDerived1]
+                                        ) [MatchedStatement]
+                                      ) [Statements]
+                                      MatchedStatement(
+                                        MatchedDerived1(
+                                          DesignatorParsStatement(
+                                            Designator(
+                                             mul
+                                              NoDesPars(
+                                              ) [NoDesPars]
+                                            ) [Designator]
+                                            ActParamsExist(
+                                              ActPars(
+                                                ExprPlus(
+                                                  Term(
+                                                    DesignatorNoParsFac(
+                                                      Designator(
+                                                       niz
+                                                        NoDesPars(
+                                                        ) [NoDesPars]
+                                                      ) [Designator]
+                                                    ) [DesignatorNoParsFac]
+                                                    NoMulopFactors(
+                                                    ) [NoMulopFactors]
+                                                  ) [Term]
+                                                  NoAddopTerms(
+                                                  ) [NoAddopTerms]
+                                                ) [ExprPlus]
+                                                Exprs(
+                                                  ExprPlus(
+                                                    Term(
+                                                      DesignatorParsFac(
+                                                        Designator(
+                                                         inc
+                                                          NoDesPars(
+                                                          ) [NoDesPars]
+                                                        ) [Designator]
+                                                        ActParamsExist(
+                                                          ActPars(
+                                                            ExprPlus(
+                                                              Term(
+                                                                NumConstFac(
+                                                                 0
+                                                                ) [NumConstFac]
+                                                                NoMulopFactors(
+                                                                ) [NoMulopFactors]
+                                                              ) [Term]
+                                                              NoAddopTerms(
+                                                              ) [NoAddopTerms]
+                                                            ) [ExprPlus]
+                                                            NoExprs(
+                                                            ) [NoExprs]
+                                                          ) [ActPars]
+                                                        ) [ActParamsExist]
+                                                      ) [DesignatorParsFac]
+                                                      NoMulopFactors(
+                                                      ) [NoMulopFactors]
+                                                    ) [Term]
+                                                    NoAddopTerms(
+                                                    ) [NoAddopTerms]
+                                                  ) [ExprPlus]
+                                                  Exprs(
+                                                    ExprPlus(
+                                                      Term(
+                                                        NumConstFac(
+                                                         2
+                                                        ) [NumConstFac]
+                                                        NoMulopFactors(
+                                                        ) [NoMulopFactors]
+                                                      ) [Term]
+                                                      NoAddopTerms(
+                                                      ) [NoAddopTerms]
+                                                    ) [ExprPlus]
+                                                    NoExprs(
+                                                    ) [NoExprs]
+                                                  ) [Exprs]
+                                                ) [Exprs]
+                                              ) [ActPars]
+                                            ) [ActParamsExist]
+                                          ) [DesignatorParsStatement]
+                                        ) [MatchedDerived1]
+                                      ) [MatchedStatement]
+                                    ) [Statements]
+                                    MatchedStatement(
+                                      MatchedDerived1(
+                                        DesignatorParsStatement(
+                                          Designator(
+                                           mul
+                                            NoDesPars(
+                                            ) [NoDesPars]
+                                          ) [Designator]
+                                          ActParamsExist(
+                                            ActPars(
+                                              ExprPlus(
+                                                Term(
+                                                  DesignatorNoParsFac(
+                                                    Designator(
+                                                     niz
+                                                      NoDesPars(
+                                                      ) [NoDesPars]
+                                                    ) [Designator]
+                                                  ) [DesignatorNoParsFac]
+                                                  NoMulopFactors(
+                                                  ) [NoMulopFactors]
+                                                ) [Term]
+                                                NoAddopTerms(
+                                                ) [NoAddopTerms]
+                                              ) [ExprPlus]
+                                              Exprs(
+                                                ExprPlus(
+                                                  Term(
+                                                    DesignatorNoParsFac(
+                                                      Designator(
+                                                       Broj
+                                                        DesPars(
+                                                          DesignValuesDerived1(
+                                                           NULA
+                                                          ) [DesignValuesDerived1]
+                                                          NoDesPars(
+                                                          ) [NoDesPars]
+                                                        ) [DesPars]
+                                                      ) [Designator]
+                                                    ) [DesignatorNoParsFac]
+                                                    NoMulopFactors(
+                                                    ) [NoMulopFactors]
+                                                  ) [Term]
+                                                  NoAddopTerms(
+                                                  ) [NoAddopTerms]
+                                                ) [ExprPlus]
+                                                Exprs(
+                                                  ExprPlus(
+                                                    Term(
+                                                      DesignatorParsFac(
+                                                        Designator(
+                                                         inc
+                                                          NoDesPars(
+                                                          ) [NoDesPars]
+                                                        ) [Designator]
+                                                        ActParamsExist(
+                                                          ActPars(
+                                                            ExprPlus(
+                                                              Term(
+                                                                DesignatorParsFac(
+                                                                  Designator(
+                                                                   inc
+                                                                    NoDesPars(
+                                                                    ) [NoDesPars]
+                                                                  ) [Designator]
+                                                                  ActParamsExist(
+                                                                    ActPars(
+                                                                      ExprPlus(
+                                                                        Term(
+                                                                          DesignatorNoParsFac(
+                                                                            Designator(
+                                                                             Broj
+                                                                              DesPars(
+                                                                                DesignValuesDerived1(
+                                                                                 JEDAN
+                                                                                ) [DesignValuesDerived1]
+                                                                                NoDesPars(
+                                                                                ) [NoDesPars]
+                                                                              ) [DesPars]
+                                                                            ) [Designator]
+                                                                          ) [DesignatorNoParsFac]
+                                                                          NoMulopFactors(
+                                                                          ) [NoMulopFactors]
+                                                                        ) [Term]
+                                                                        NoAddopTerms(
+                                                                        ) [NoAddopTerms]
+                                                                      ) [ExprPlus]
+                                                                      NoExprs(
+                                                                      ) [NoExprs]
+                                                                    ) [ActPars]
+                                                                  ) [ActParamsExist]
+                                                                ) [DesignatorParsFac]
+                                                                NoMulopFactors(
+                                                                ) [NoMulopFactors]
+                                                              ) [Term]
+                                                              AddopTerms(
+                                                                Plus(
+                                                                ) [Plus]
+                                                                Term(
+                                                                  NumConstFac(
+                                                                   1
+                                                                  ) [NumConstFac]
+                                                                  NoMulopFactors(
+                                                                  ) [NoMulopFactors]
+                                                                ) [Term]
+                                                                NoAddopTerms(
+                                                                ) [NoAddopTerms]
+                                                              ) [AddopTerms]
+                                                            ) [ExprPlus]
+                                                            NoExprs(
+                                                            ) [NoExprs]
+                                                          ) [ActPars]
+                                                        ) [ActParamsExist]
+                                                      ) [DesignatorParsFac]
+                                                      NoMulopFactors(
+                                                      ) [NoMulopFactors]
+                                                    ) [Term]
+                                                    NoAddopTerms(
+                                                    ) [NoAddopTerms]
+                                                  ) [ExprPlus]
+                                                  NoExprs(
+                                                  ) [NoExprs]
+                                                ) [Exprs]
+                                              ) [Exprs]
+                                            ) [ActPars]
+                                          ) [ActParamsExist]
+                                        ) [DesignatorParsStatement]
+                                      ) [MatchedDerived1]
+                                    ) [MatchedStatement]
+                                  ) [Statements]
+                                  MatchedStatement(
+                                    MatchedDerived1(
+                                      DesignatorAssignStatement(
+                                        Designator(
+                                         bodovi
+                                          NoDesPars(
+                                          ) [NoDesPars]
+                                        ) [Designator]
+                                        Assignop(
+                                        ) [Assignop]
+                                        ExprPlus(
+                                          Term(
+                                            DesignatorNoParsFac(
+                                              Designator(
+                                               niz
+                                                DesPars(
+                                                  DesignValuesDerived2(
+                                                    ExprPlus(
+                                                      Term(
+                                                        NumConstFac(
+                                                         1
+                                                        ) [NumConstFac]
+                                                        NoMulopFactors(
+                                                        ) [NoMulopFactors]
+                                                      ) [Term]
+                                                      NoAddopTerms(
+                                                      ) [NoAddopTerms]
+                                                    ) [ExprPlus]
+                                                  ) [DesignValuesDerived2]
+                                                  NoDesPars(
+                                                  ) [NoDesPars]
+                                                ) [DesPars]
+                                              ) [Designator]
+                                            ) [DesignatorNoParsFac]
+                                            MulopFactors(
+                                              Div(
+                                              ) [Div]
+                                              DesignatorNoParsFac(
+                                                Designator(
+                                                 niz
+                                                  DesPars(
+                                                    DesignValuesDerived2(
+                                                      ExprPlus(
+                                                        Term(
+                                                          NumConstFac(
+                                                           0
+                                                          ) [NumConstFac]
+                                                          NoMulopFactors(
+                                                          ) [NoMulopFactors]
+                                                        ) [Term]
+                                                        NoAddopTerms(
+                                                        ) [NoAddopTerms]
+                                                      ) [ExprPlus]
+                                                    ) [DesignValuesDerived2]
+                                                    NoDesPars(
+                                                    ) [NoDesPars]
+                                                  ) [DesPars]
+                                                ) [Designator]
+                                              ) [DesignatorNoParsFac]
+                                              NoMulopFactors(
+                                              ) [NoMulopFactors]
+                                            ) [MulopFactors]
+                                          ) [Term]
+                                          NoAddopTerms(
+                                          ) [NoAddopTerms]
+                                        ) [ExprPlus]
+                                      ) [DesignatorAssignStatement]
+                                    ) [MatchedDerived1]
+                                  ) [MatchedStatement]
+                                ) [Statements]
+                                MatchedStatement(
+                                  PrintStatement(
+                                    ExprPlus(
+                                      Term(
+                                        DesignatorNoParsFac(
+                                          Designator(
+                                           bodovi
+                                            NoDesPars(
+                                            ) [NoDesPars]
+                                          ) [Designator]
+                                        ) [DesignatorNoParsFac]
+                                        NoMulopFactors(
+                                        ) [NoMulopFactors]
+                                      ) [Term]
+                                      NoAddopTerms(
+                                      ) [NoAddopTerms]
+                                    ) [ExprPlus]
+                                  ) [PrintStatement]
+                                ) [MatchedStatement]
+                              ) [Statements]
+                              MatchedStatement(
+                                PrintStatement(
+                                  ExprPlus(
+                                    Term(
+                                      DesignatorNoParsFac(
+                                        Designator(
+                                         niz
+                                          DesPars(
+                                            DesignValuesDerived2(
+                                              ExprPlus(
+                                                Term(
+                                                  DesignatorNoParsFac(
+                                                    Designator(
+                                                     Broj
+                                                      DesPars(
+                                                        DesignValuesDerived1(
+                                                         JEDAN
+                                                        ) [DesignValuesDerived1]
+                                                        NoDesPars(
+                                                        ) [NoDesPars]
+                                                      ) [DesPars]
+                                                    ) [Designator]
+                                                  ) [DesignatorNoParsFac]
+                                                  NoMulopFactors(
+                                                  ) [NoMulopFactors]
+                                                ) [Term]
+                                                NoAddopTerms(
+                                                ) [NoAddopTerms]
+                                              ) [ExprPlus]
+                                            ) [DesignValuesDerived2]
+                                            NoDesPars(
+                                            ) [NoDesPars]
+                                          ) [DesPars]
+                                        ) [Designator]
+                                      ) [DesignatorNoParsFac]
+                                      NoMulopFactors(
+                                      ) [NoMulopFactors]
+                                    ) [Term]
+                                    NoAddopTerms(
+                                    ) [NoAddopTerms]
+                                  ) [ExprPlus]
+                                ) [PrintStatement]
+                              ) [MatchedStatement]
+                            ) [Statements]
+                            MatchedStatement(
+                              MatchedDerived1(
+                                DesignatorAssignStatement(
+                                  Designator(
+                                   nizch
+                                    NoDesPars(
+                                    ) [NoDesPars]
+                                  ) [Designator]
+                                  Assignop(
+                                  ) [Assignop]
+                                  ExprPlus(
+                                    Term(
+                                      NewParamFac(
+                                        Type(
+                                         char
+                                        ) [Type]
+                                        ExprPlus(
+                                          Term(
+                                            NumConstFac(
+                                             3
+                                            ) [NumConstFac]
+                                            NoMulopFactors(
+                                            ) [NoMulopFactors]
+                                          ) [Term]
+                                          NoAddopTerms(
+                                          ) [NoAddopTerms]
+                                        ) [ExprPlus]
+                                      ) [NewParamFac]
+                                      NoMulopFactors(
+                                      ) [NoMulopFactors]
+                                    ) [Term]
+                                    NoAddopTerms(
+                                    ) [NoAddopTerms]
+                                  ) [ExprPlus]
+                                ) [DesignatorAssignStatement]
+                              ) [MatchedDerived1]
+                            ) [MatchedStatement]
+                          ) [Statements]
+                          MatchedStatement(
+                            MatchedDerived1(
+                              DesignatorAssignStatement(
+                                Designator(
+                                 nizch
+                                  DesPars(
+                                    DesignValuesDerived2(
+                                      ExprPlus(
+                                        Term(
+                                          NumConstFac(
+                                           0
+                                          ) [NumConstFac]
+                                          NoMulopFactors(
+                                          ) [NoMulopFactors]
+                                        ) [Term]
+                                        NoAddopTerms(
+                                        ) [NoAddopTerms]
+                                      ) [ExprPlus]
+                                    ) [DesignValuesDerived2]
+                                    NoDesPars(
+                                    ) [NoDesPars]
+                                  ) [DesPars]
+                                ) [Designator]
+                                Assignop(
+                                ) [Assignop]
+                                ExprPlus(
+                                  Term(
+                                    CharConstFac(
+                                     a
+                                    ) [CharConstFac]
+                                    NoMulopFactors(
+                                    ) [NoMulopFactors]
+                                  ) [Term]
+                                  NoAddopTerms(
+                                  ) [NoAddopTerms]
+                                ) [ExprPlus]
+                              ) [DesignatorAssignStatement]
+                            ) [MatchedDerived1]
+                          ) [MatchedStatement]
+                        ) [Statements]
+                        MatchedStatement(
+                          MatchedDerived1(
+                            DesignatorAssignStatement(
+                              Designator(
+                               nizch
+                                DesPars(
+                                  DesignValuesDerived2(
+                                    ExprPlus(
+                                      Term(
+                                        DesignatorNoParsFac(
+                                          Designator(
+                                           jedan
+                                            NoDesPars(
+                                            ) [NoDesPars]
+                                          ) [Designator]
+                                        ) [DesignatorNoParsFac]
+                                        NoMulopFactors(
+                                        ) [NoMulopFactors]
+                                      ) [Term]
+                                      NoAddopTerms(
+                                      ) [NoAddopTerms]
+                                    ) [ExprPlus]
+                                  ) [DesignValuesDerived2]
+                                  NoDesPars(
+                                  ) [NoDesPars]
+                                ) [DesPars]
+                              ) [Designator]
+                              Assignop(
+                              ) [Assignop]
+                              ExprPlus(
+                                Term(
+                                  CharConstFac(
+                                   b
+                                  ) [CharConstFac]
+                                  NoMulopFactors(
+                                  ) [NoMulopFactors]
+                                ) [Term]
+                                NoAddopTerms(
+                                ) [NoAddopTerms]
+                              ) [ExprPlus]
+                            ) [DesignatorAssignStatement]
+                          ) [MatchedDerived1]
+                        ) [MatchedStatement]
+                      ) [Statements]
+                      MatchedStatement(
+                        MatchedDerived1(
+                          DesignatorAssignStatement(
+                            Designator(
+                             nizch
+                              DesPars(
+                                DesignValuesDerived2(
+                                  ExprPlus(
+                                    Term(
+                                      DesignatorNoParsFac(
+                                        Designator(
+                                         pet
+                                          NoDesPars(
+                                          ) [NoDesPars]
+                                        ) [Designator]
+                                      ) [DesignatorNoParsFac]
+                                      NoMulopFactors(
+                                      ) [NoMulopFactors]
+                                    ) [Term]
+                                    AddopTerms(
+                                      Minus(
+                                      ) [Minus]
+                                      Term(
+                                        NumConstFac(
+                                         3
+                                        ) [NumConstFac]
+                                        NoMulopFactors(
+                                        ) [NoMulopFactors]
+                                      ) [Term]
+                                      NoAddopTerms(
+                                      ) [NoAddopTerms]
+                                    ) [AddopTerms]
+                                  ) [ExprPlus]
+                                ) [DesignValuesDerived2]
+                                NoDesPars(
+                                ) [NoDesPars]
+                              ) [DesPars]
+                            ) [Designator]
+                            Assignop(
+                            ) [Assignop]
+                            ExprPlus(
+                              Term(
+                                CharConstFac(
+                                 c
+                                ) [CharConstFac]
+                                NoMulopFactors(
+                                ) [NoMulopFactors]
+                              ) [Term]
+                              NoAddopTerms(
+                              ) [NoAddopTerms]
+                            ) [ExprPlus]
+                          ) [DesignatorAssignStatement]
+                        ) [MatchedDerived1]
+                      ) [MatchedStatement]
+                    ) [Statements]
+                    MatchedStatement(
+                      PrintStatement(
+                        ExprPlus(
+                          Term(
+                            DesignatorNoParsFac(
+                              Designator(
+                               nizch
+                                DesPars(
+                                  DesignValuesDerived2(
+                                    ExprPlus(
+                                      Term(
+                                        DesignatorParsFac(
+                                          Designator(
+                                           inc
+                                            NoDesPars(
+                                            ) [NoDesPars]
+                                          ) [Designator]
+                                          ActParamsExist(
+                                            ActPars(
+                                              ExprPlus(
+                                                Term(
+                                                  NumConstFac(
+                                                   0
+                                                  ) [NumConstFac]
+                                                  NoMulopFactors(
+                                                  ) [NoMulopFactors]
+                                                ) [Term]
+                                                NoAddopTerms(
+                                                ) [NoAddopTerms]
+                                              ) [ExprPlus]
+                                              NoExprs(
+                                              ) [NoExprs]
+                                            ) [ActPars]
+                                          ) [ActParamsExist]
+                                        ) [DesignatorParsFac]
+                                        NoMulopFactors(
+                                        ) [NoMulopFactors]
+                                      ) [Term]
+                                      NoAddopTerms(
+                                      ) [NoAddopTerms]
+                                    ) [ExprPlus]
+                                  ) [DesignValuesDerived2]
+                                  NoDesPars(
+                                  ) [NoDesPars]
+                                ) [DesPars]
+                              ) [Designator]
+                            ) [DesignatorNoParsFac]
+                            NoMulopFactors(
+                            ) [NoMulopFactors]
+                          ) [Term]
+                          NoAddopTerms(
+                          ) [NoAddopTerms]
+                        ) [ExprPlus]
+                      ) [PrintStatement]
+                    ) [MatchedStatement]
+                  ) [Statements]
+                  MatchedStatement(
+                    PrintStatement(
+                      ExprPlus(
+                        Term(
+                          DesignatorNoParsFac(
+                            Designator(
+                             nizch
+                              DesPars(
+                                DesignValuesDerived2(
+                                  ExprPlus(
+                                    Term(
+                                      DesignatorNoParsFac(
+                                        Designator(
+                                         jedan
+                                          NoDesPars(
+                                          ) [NoDesPars]
+                                        ) [Designator]
+                                      ) [DesignatorNoParsFac]
+                                      MulopFactors(
+                                        Mul(
+                                        ) [Mul]
+                                        NumConstFac(
+                                         2
+                                        ) [NumConstFac]
+                                        NoMulopFactors(
+                                        ) [NoMulopFactors]
+                                      ) [MulopFactors]
+                                    ) [Term]
+                                    NoAddopTerms(
+                                    ) [NoAddopTerms]
+                                  ) [ExprPlus]
+                                ) [DesignValuesDerived2]
+                                NoDesPars(
+                                ) [NoDesPars]
+                              ) [DesPars]
+                            ) [Designator]
+                          ) [DesignatorNoParsFac]
+                          NoMulopFactors(
+                          ) [NoMulopFactors]
+                        ) [Term]
+                        NoAddopTerms(
+                        ) [NoAddopTerms]
+                      ) [ExprPlus]
+                    ) [PrintStatement]
+                  ) [MatchedStatement]
+                ) [Statements]
+                MatchedStatement(
+                  MatchedDerived1(
+                    DesignatorAssignStatement(
+                      Designator(
+                       bodovi
+                        NoDesPars(
+                        ) [NoDesPars]
+                      ) [Designator]
+                      Assignop(
+                      ) [Assignop]
+                      ExprPlus(
+                        Term(
+                          DesignatorNoParsFac(
+                            Designator(
+                             bodovi
+                              NoDesPars(
+                              ) [NoDesPars]
+                            ) [Designator]
+                          ) [DesignatorNoParsFac]
+                          NoMulopFactors(
+                          ) [NoMulopFactors]
+                        ) [Term]
+                        AddopTerms(
+                          Plus(
+                          ) [Plus]
+                          Term(
+                            ExprFac(
+                              ExprPlus(
+                                Term(
+                                  ExprFac(
+                                    ExprPlus(
+                                      Term(
+                                        DesignatorNoParsFac(
+                                          Designator(
+                                           pet
+                                            NoDesPars(
+                                            ) [NoDesPars]
+                                          ) [Designator]
+                                        ) [DesignatorNoParsFac]
+                                        MulopFactors(
+                                          Mul(
+                                          ) [Mul]
+                                          DesignatorNoParsFac(
+                                            Designator(
+                                             jedan
+                                              NoDesPars(
+                                              ) [NoDesPars]
+                                            ) [Designator]
+                                          ) [DesignatorNoParsFac]
+                                          NoMulopFactors(
+                                          ) [NoMulopFactors]
+                                        ) [MulopFactors]
+                                      ) [Term]
+                                      AddopTerms(
+                                        Minus(
+                                        ) [Minus]
+                                        Term(
+                                          NumConstFac(
+                                           1
+                                          ) [NumConstFac]
+                                          NoMulopFactors(
+                                          ) [NoMulopFactors]
+                                        ) [Term]
+                                        NoAddopTerms(
+                                        ) [NoAddopTerms]
+                                      ) [AddopTerms]
+                                    ) [ExprPlus]
+                                  ) [ExprFac]
+                                  MulopFactors(
+                                    Mul(
+                                    ) [Mul]
+                                    DesignatorParsFac(
+                                      Designator(
+                                       inc
+                                        NoDesPars(
+                                        ) [NoDesPars]
+                                      ) [Designator]
+                                      ActParamsExist(
+                                        ActPars(
+                                          ExprPlus(
+                                            Term(
+                                              DesignatorNoParsFac(
+                                                Designator(
+                                                 Broj
+                                                  DesPars(
+                                                    DesignValuesDerived1(
+                                                     JEDAN
+                                                    ) [DesignValuesDerived1]
+                                                    NoDesPars(
+                                                    ) [NoDesPars]
+                                                  ) [DesPars]
+                                                ) [Designator]
+                                              ) [DesignatorNoParsFac]
+                                              NoMulopFactors(
+                                              ) [NoMulopFactors]
+                                            ) [Term]
+                                            NoAddopTerms(
+                                            ) [NoAddopTerms]
+                                          ) [ExprPlus]
+                                          NoExprs(
+                                          ) [NoExprs]
+                                        ) [ActPars]
+                                      ) [ActParamsExist]
+                                    ) [DesignatorParsFac]
+                                    NoMulopFactors(
+                                    ) [NoMulopFactors]
+                                  ) [MulopFactors]
+                                ) [Term]
+                                AddopTerms(
+                                  Minus(
+                                  ) [Minus]
+                                  Term(
+                                    ExprFac(
+                                      ExprPlus(
+                                        Term(
+                                          NumConstFac(
+                                           3
+                                          ) [NumConstFac]
+                                          MulopFactors(
+                                            Divr(
+                                            ) [Divr]
+                                            NumConstFac(
+                                             2
+                                            ) [NumConstFac]
+                                            NoMulopFactors(
+                                            ) [NoMulopFactors]
+                                          ) [MulopFactors]
+                                        ) [Term]
+                                        AddopTerms(
+                                          Plus(
+                                          ) [Plus]
+                                          Term(
+                                            NumConstFac(
+                                             3
+                                            ) [NumConstFac]
+                                            MulopFactors(
+                                              Mul(
+                                              ) [Mul]
+                                              NumConstFac(
+                                               2
+                                              ) [NumConstFac]
+                                              NoMulopFactors(
+                                              ) [NoMulopFactors]
+                                            ) [MulopFactors]
+                                          ) [Term]
+                                          AddopTerms(
+                                            Minus(
+                                            ) [Minus]
+                                            Term(
+                                              NumConstFac(
+                                               3
+                                              ) [NumConstFac]
+                                              NoMulopFactors(
+                                              ) [NoMulopFactors]
+                                            ) [Term]
+                                            NoAddopTerms(
+                                            ) [NoAddopTerms]
+                                          ) [AddopTerms]
+                                        ) [AddopTerms]
+                                      ) [ExprPlus]
+                                    ) [ExprFac]
+                                    NoMulopFactors(
+                                    ) [NoMulopFactors]
+                                  ) [Term]
+                                  AddopTerms(
+                                    Minus(
+                                    ) [Minus]
+                                    Term(
+                                      DesignatorParsFac(
+                                        Designator(
+                                         inc
+                                          NoDesPars(
+                                          ) [NoDesPars]
+                                        ) [Designator]
+                                        ActParamsExist(
+                                          ActPars(
+                                            ExprPlus(
+                                              Term(
+                                                DesignatorNoParsFac(
+                                                  Designator(
+                                                   Broj
+                                                    DesPars(
+                                                      DesignValuesDerived1(
+                                                       NULA
+                                                      ) [DesignValuesDerived1]
+                                                      NoDesPars(
+                                                      ) [NoDesPars]
+                                                    ) [DesPars]
+                                                  ) [Designator]
+                                                ) [DesignatorNoParsFac]
+                                                NoMulopFactors(
+                                                ) [NoMulopFactors]
+                                              ) [Term]
+                                              NoAddopTerms(
+                                              ) [NoAddopTerms]
+                                            ) [ExprPlus]
+                                            NoExprs(
+                                            ) [NoExprs]
+                                          ) [ActPars]
+                                        ) [ActParamsExist]
+                                      ) [DesignatorParsFac]
+                                      MulopFactors(
+                                        Mul(
+                                        ) [Mul]
+                                        NumConstFac(
+                                         0
+                                        ) [NumConstFac]
+                                        NoMulopFactors(
+                                        ) [NoMulopFactors]
+                                      ) [MulopFactors]
+                                    ) [Term]
+                                    NoAddopTerms(
+                                    ) [NoAddopTerms]
+                                  ) [AddopTerms]
+                                ) [AddopTerms]
+                              ) [ExprPlus]
+                            ) [ExprFac]
+                            NoMulopFactors(
+                            ) [NoMulopFactors]
+                          ) [Term]
+                          NoAddopTerms(
+                          ) [NoAddopTerms]
+                        ) [AddopTerms]
+                      ) [ExprPlus]
+                    ) [DesignatorAssignStatement]
+                  ) [MatchedDerived1]
+                ) [MatchedStatement]
+              ) [Statements]
+              MatchedStatement(
+                PrintStatement(
+                  ExprPlus(
+                    Term(
+                      DesignatorNoParsFac(
+                        Designator(
+                         bodovi
+                          NoDesPars(
+                          ) [NoDesPars]
+                        ) [Designator]
+                      ) [DesignatorNoParsFac]
+                      NoMulopFactors(
+                      ) [NoMulopFactors]
+                    ) [Term]
+                    NoAddopTerms(
+                    ) [NoAddopTerms]
+                  ) [ExprPlus]
+                ) [PrintStatement]
+              ) [MatchedStatement]
+            ) [Statements]
+            MatchedStatement(
+              ReadStatement(
+                Designator(
+                 bodovi
+                  NoDesPars(
+                  ) [NoDesPars]
+                ) [Designator]
+              ) [ReadStatement]
+            ) [MatchedStatement]
+          ) [Statements]
+          MatchedStatement(
+            MatchedDerived1(
+              DesignatorAssignStatement(
+                Designator(
+                 bodovi
+                  NoDesPars(
+                  ) [NoDesPars]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                ExprPlus(
+                  Term(
+                    DesignatorParsFac(
+                      Designator(
+                       inc
+                        NoDesPars(
+                        ) [NoDesPars]
+                      ) [Designator]
+                      ActParamsExist(
+                        ActPars(
+                          ExprPlus(
+                            Term(
+                              DesignatorNoParsFac(
+                                Designator(
+                                 bodovi
+                                  NoDesPars(
+                                  ) [NoDesPars]
+                                ) [Designator]
+                              ) [DesignatorNoParsFac]
+                              NoMulopFactors(
+                              ) [NoMulopFactors]
+                            ) [Term]
+                            NoAddopTerms(
+                            ) [NoAddopTerms]
+                          ) [ExprPlus]
+                          NoExprs(
+                          ) [NoExprs]
+                        ) [ActPars]
+                      ) [ActParamsExist]
+                    ) [DesignatorParsFac]
+                    NoMulopFactors(
+                    ) [NoMulopFactors]
+                  ) [Term]
+                  NoAddopTerms(
+                  ) [NoAddopTerms]
+                ) [ExprPlus]
+              ) [DesignatorAssignStatement]
+            ) [MatchedDerived1]
+          ) [MatchedStatement]
+        ) [Statements]
+        MatchedStatement(
+          PrintStatement(
+            ExprPlus(
+              Term(
+                DesignatorNoParsFac(
+                  Designator(
+                   bodovi
+                    NoDesPars(
+                    ) [NoDesPars]
+                  ) [Designator]
+                ) [DesignatorNoParsFac]
+                NoMulopFactors(
+                ) [NoMulopFactors]
+              ) [Term]
+              NoAddopTerms(
+              ) [NoAddopTerms]
+            ) [ExprPlus]
+          ) [PrintStatement]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:23:22,345 - ===================================
+INFO  15:23:22,345 - Deklarisana enum konstanta NULA  Na liniji 5
+INFO  15:23:22,345 - Deklarisana enum konstanta JEDAN  Na liniji 5
+INFO  15:23:22,345 - Deklarisana enum konstanta PET  Na liniji 5
+INFO  15:23:22,345 - Deklarisana enum konstanta DESET  Na liniji 5
+INFO  15:23:22,345 - Dodata konstanta jedan u tabelu simbola Na liniji 7
+INFO  15:23:22,345 - Dodata konstanta pet u tabelu simbola Na liniji 8
+INFO  15:23:22,345 - Deklarisana promenljivaniz Na liniji 10
+INFO  15:23:22,345 - Deklarisana promenljivanizch Na liniji 11
+INFO  15:23:22,345 - Obradjuje se funkcijainc Na liniji 14

@@ -1,0 +1,47 @@
+INFO  17:32:32,592 - Compiling source file: C:\Users\User\Desktop\pp1lab.templateAST\workspace\MJCompiler\test\test01.mj
+INFO  17:32:33,109 - #2 program
+INFO  17:32:33,109 - #45 myProgram
+INFO  17:32:33,112 - #45 int
+INFO  17:32:33,116 - #45 l1
+INFO  17:32:33,116 - #9 ;
+INFO  17:32:33,116 - #45 int
+INFO  17:32:33,131 - #45 globArr
+INFO  17:32:33,131 - #10 [
+INFO  17:32:33,131 - #11 ]
+INFO  17:32:33,131 - #9 ;
+INFO  17:32:33,131 - #5 const
+INFO  17:32:33,131 - #45 int
+INFO  17:32:33,131 - #45 N
+INFO  17:32:33,131 - #6 =
+INFO  17:32:33,131 - #44 5
+INFO  17:32:33,131 - #9 ;
+INFO  17:32:33,131 - #3 {
+INFO  17:32:33,147 - #18 void
+INFO  17:32:33,147 - #45 main
+INFO  17:32:33,147 - #16 (
+INFO  17:32:33,147 - #17 )
+INFO  17:32:33,147 - #45 int
+INFO  17:32:33,162 - #45 a
+INFO  17:32:33,162 - #7 ,
+INFO  17:32:33,162 - #45 b
+INFO  17:32:33,162 - #9 ;
+INFO  17:32:33,162 - #45 int
+INFO  17:32:33,162 - #45 v1
+INFO  17:32:33,162 - #9 ;
+INFO  17:32:33,162 - #45 int
+INFO  17:32:33,162 - #45 arr
+INFO  17:32:33,162 - #10 [
+INFO  17:32:33,162 - #11 ]
+INFO  17:32:33,162 - #9 ;
+INFO  17:32:33,162 - #45 int
+INFO  17:32:33,162 - #45 v3
+INFO  17:32:33,162 - #7 ,
+INFO  17:32:33,162 - #45 v2
+INFO  17:32:33,162 - #9 ;
+INFO  17:32:33,162 - #45 char
+INFO  17:32:33,162 - #45 c1
+INFO  17:32:33,162 - #9 ;
+INFO  17:32:33,162 - #3 {
+ERROR 17:32:33,162 - 
+Sintaksna greska na liniji 12
+ERROR 17:32:33,162 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 12

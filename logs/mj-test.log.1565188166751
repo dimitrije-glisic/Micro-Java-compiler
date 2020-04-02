@@ -1,0 +1,49 @@
+INFO  16:27:15,965 - Compiling source file: C:\Users\User\Desktop\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:27:16,105 - #2 program
+INFO  16:27:16,105 - #46 MJProgram
+INFO  16:27:16,105 - #46 int
+INFO  16:27:16,106 - #46 x
+INFO  16:27:16,108 - #11 ;
+INFO  16:27:16,110 - #46 int
+INFO  16:27:16,111 - #46 y
+INFO  16:27:16,112 - #11 ;
+INFO  16:27:16,112 - #3 {
+INFO  16:27:16,112 - #4 }
+INFO  16:27:16,114 - Program(
+ MJProgram
+  Lists(
+    Lists(
+      NoLists(
+      ) [NoLists]
+      ListsItemDerived2(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         x
+          NoSBraces(
+          ) [NoSBraces]
+          NoIdents(
+          ) [NoIdents]
+        ) [VarDecl]
+      ) [ListsItemDerived2]
+    ) [Lists]
+    ListsItemDerived2(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+       y
+        NoSBraces(
+        ) [NoSBraces]
+        NoIdents(
+        ) [NoIdents]
+      ) [VarDecl]
+    ) [ListsItemDerived2]
+  ) [Lists]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  16:27:16,116 - ===================================
+INFO  16:27:16,123 -  Print count calls = 0
+INFO  16:27:16,123 -  Deklarisanih promenljivih ima = 0

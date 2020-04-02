@@ -1,0 +1,18 @@
+INFO  17:44:45,972 - Compiling source file: C:\Users\User\Desktop\pp1lab.templateAST\workspace\MJCompiler\test\test01.mj
+INFO  17:44:46,126 - #2 program
+INFO  17:44:46,126 - #45 MJProgram
+INFO  17:44:46,126 - #45 int
+INFO  17:44:46,126 - #45 x
+INFO  17:44:46,126 - #9 ;
+INFO  17:44:46,126 - #45 int
+INFO  17:44:46,126 - #45 y
+INFO  17:44:46,126 - #9 ;
+INFO  17:44:46,126 - #3 {
+INFO  17:44:46,126 - #45 int
+INFO  17:44:46,126 - #45 main
+INFO  17:44:46,126 - #16 (
+INFO  17:44:46,126 - #17 )
+INFO  17:44:46,141 - #3 {
+ERROR 17:44:46,141 - 
+Sintaksna greska na liniji 5
+ERROR 17:44:46,141 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 5

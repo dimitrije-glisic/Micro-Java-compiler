@@ -1,0 +1,33 @@
+INFO  13:48:53,064 - Compiling source file: C:\Users\User\Desktop\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  13:48:53,189 - #2 program
+INFO  13:48:53,189 - #44 MJProgram
+INFO  13:48:53,189 - #44 char
+INFO  13:48:53,189 - #44 m
+INFO  13:48:53,189 - #7 ,
+INFO  13:48:53,189 - #44 l
+INFO  13:48:53,189 - #9 ;
+INFO  13:48:53,189 - #44 int
+INFO  13:48:53,189 - #44 x
+INFO  13:48:53,189 - #9 ;
+INFO  13:48:53,189 - #44 int
+INFO  13:48:53,204 - #44 y
+INFO  13:48:53,204 - #9 ;
+INFO  13:48:53,204 - #44 int
+INFO  13:48:53,204 - #44 ab
+INFO  13:48:53,204 - #10 [
+INFO  13:48:53,204 - #11 ]
+INFO  13:48:53,204 - #9 ;
+INFO  13:48:53,204 - #5 const
+INFO  13:48:53,204 - #44 char
+INFO  13:48:53,204 - #44 N
+INFO  13:48:53,204 - #6 =
+INFO  13:48:53,204 - #46 a
+INFO  13:48:53,204 - #9 ;
+INFO  13:48:53,204 - #5 const
+INFO  13:48:53,204 - #44 bool
+INFO  13:48:53,204 - #44 ced
+INFO  13:48:53,204 - #6 =
+INFO  13:48:53,204 - #44 true
+ERROR 13:48:53,204 - 
+Sintaksna greska na liniji 6
+ERROR 13:48:53,204 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 6

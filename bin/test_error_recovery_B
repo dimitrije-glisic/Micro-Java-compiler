@@ -1,0 +1,31 @@
+//test error_recovery_B
+
+
+program test_error_B 
+
+int a, , c ;
+
+
+{
+		
+		int f(int a, int , int c){
+		
+			for(a = 0; a < ; a++){
+				print(a);
+			}
+			
+		}
+		
+		void main()
+		int d,23d,;
+		int e;
+		{
+			
+			e = a + b - 23 *;
+			
+			print(e);
+		
+		}
+		
+}
+

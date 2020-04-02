@@ -1,0 +1,198 @@
+INFO  11:33:09,907 - Compiling source file: C:\Users\User\Desktop\pp1lab.templateAST\workspace\MJCompiler\test\test03.mj
+INFO  11:33:10,054 - #2 program
+INFO  11:33:10,054 - #46 MJProgram
+INFO  11:33:10,054 - #3 {
+INFO  11:33:10,054 - #20 void
+INFO  11:33:10,058 - #46 main
+INFO  11:33:10,058 - #18 (
+INFO  11:33:10,058 - #19 )
+INFO  11:33:10,058 - #46 int
+INFO  11:33:10,062 - #46 a
+INFO  11:33:10,062 - #9 ,
+INFO  11:33:10,066 - #46 d
+INFO  11:33:10,066 - #9 ,
+INFO  11:33:10,066 - #46 e
+INFO  11:33:10,066 - #11 ;
+INFO  11:33:10,066 - #46 char
+INFO  11:33:10,070 - #46 f
+INFO  11:33:10,070 - #11 ;
+INFO  11:33:10,070 - #46 bool
+INFO  11:33:10,070 - #46 b
+INFO  11:33:10,070 - #12 [
+INFO  11:33:10,074 - #13 ]
+INFO  11:33:10,074 - #11 ;
+INFO  11:33:10,074 - #3 {
+INFO  11:33:10,074 - #46 f
+INFO  11:33:10,078 - #8 =
+INFO  11:33:10,082 - #6 1
+INFO  11:33:10,082 - #11 ;
+INFO  11:33:10,090 - #27 print
+INFO  11:33:10,094 - #18 (
+INFO  11:33:10,094 - #46 f
+INFO  11:33:10,094 - #19 )
+INFO  11:33:10,094 - #11 ;
+INFO  11:33:10,094 - #46 a
+INFO  11:33:10,094 - #8 =
+INFO  11:33:10,094 - #47 1
+INFO  11:33:10,094 - #46 c
+ERROR 11:33:10,094 - 
+Sintaksna greska na liniji 17
+INFO  11:33:10,094 - #11 ;
+INFO  11:33:10,094 - #46 c
+INFO  11:33:10,094 - #8 =
+INFO  11:33:10,094 - #46 char
+ERROR 11:33:10,094 - Greska pri konstrukciji iskaza dodele. Uspesno izvrsen oporavak u liniji 17
+INFO  11:33:10,098 - #46 c
+ERROR 11:33:10,098 - 
+Sintaksna greska na liniji 18
+INFO  11:33:10,098 - #11 ;
+INFO  11:33:10,098 - #46 a
+INFO  11:33:10,098 - #8 =
+INFO  11:33:10,098 - #46 cla
+ERROR 11:33:10,098 - Greska pri konstrukciji iskaza dodele. Uspesno izvrsen oporavak u liniji 18
+INFO  11:33:10,098 - #41 +
+INFO  11:33:10,098 - #11 ;
+ERROR 11:33:10,098 - 
+Sintaksna greska na liniji 19
+INFO  11:33:10,098 - #4 }
+INFO  11:33:10,098 - #4 }
+ERROR 11:33:10,098 - Greska pri konstrukciji iskaza dodele. Uspesno izvrsen oporavak u liniji 19
+INFO  11:33:10,106 - Program(
+ MJProgram
+  NoLists(
+  ) [NoLists]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidVal(
+      ) [VoidVal]
+     main
+      NoFormParams(
+      ) [NoFormParams]
+      VarDecls(
+        VarDecls(
+          VarDecls(
+            NoVarDecl(
+            ) [NoVarDecl]
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+             a
+              NoSBraces(
+              ) [NoSBraces]
+              Idents(
+               d
+                NoSBraces(
+                ) [NoSBraces]
+                Idents(
+                 e
+                  NoSBraces(
+                  ) [NoSBraces]
+                  NoIdents(
+                  ) [NoIdents]
+                ) [Idents]
+              ) [Idents]
+            ) [VarDecl]
+          ) [VarDecls]
+          VarDecl(
+            Type(
+             char
+            ) [Type]
+           f
+            NoSBraces(
+            ) [NoSBraces]
+            NoIdents(
+            ) [NoIdents]
+          ) [VarDecl]
+        ) [VarDecls]
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+         b
+          SBraces(
+          ) [SBraces]
+          NoIdents(
+          ) [NoIdents]
+        ) [VarDecl]
+      ) [VarDecls]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                NoStatement(
+                ) [NoStatement]
+                MatchedStatement(
+                  MatchedDerived1(
+                    DesignatorAssignStatement(
+                      Designator(
+                       f
+                        NoDesPars(
+                        ) [NoDesPars]
+                      ) [Designator]
+                      Assignop(
+                      ) [Assignop]
+                      ExprPlus(
+                        Term(
+                          CharConstFac(
+                          ) [CharConstFac]
+                          NoMulopFactors(
+                          ) [NoMulopFactors]
+                        ) [Term]
+                        NoAddopTerms(
+                        ) [NoAddopTerms]
+                      ) [ExprPlus]
+                    ) [DesignatorAssignStatement]
+                  ) [MatchedDerived1]
+                ) [MatchedStatement]
+              ) [Statements]
+              MatchedStatement(
+                PrintStatement(
+                  ExprPlus(
+                    Term(
+                      DesignatorNoParsFac(
+                        Designator(
+                         f
+                          NoDesPars(
+                          ) [NoDesPars]
+                        ) [Designator]
+                      ) [DesignatorNoParsFac]
+                      NoMulopFactors(
+                      ) [NoMulopFactors]
+                    ) [Term]
+                    NoAddopTerms(
+                    ) [NoAddopTerms]
+                  ) [ExprPlus]
+                ) [PrintStatement]
+              ) [MatchedStatement]
+            ) [Statements]
+            MatchedStatement(
+              MatchedDerived1(
+                DesignatorAssignStatementError(
+                ) [DesignatorAssignStatementError]
+              ) [MatchedDerived1]
+            ) [MatchedStatement]
+          ) [Statements]
+          MatchedStatement(
+            MatchedDerived1(
+              DesignatorAssignStatementError(
+              ) [DesignatorAssignStatementError]
+            ) [MatchedDerived1]
+          ) [MatchedStatement]
+        ) [Statements]
+        MatchedStatement(
+          MatchedDerived1(
+            DesignatorAssignStatementError(
+            ) [DesignatorAssignStatementError]
+          ) [MatchedDerived1]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:33:10,110 - ===================================
+INFO  11:33:10,114 -  Print count calls = 4
+INFO  11:33:10,114 -  Deklarisanih promenljivih ima = 4

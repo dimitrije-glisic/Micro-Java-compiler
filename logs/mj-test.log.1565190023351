@@ -1,0 +1,47 @@
+INFO  16:55:30,123 - Compiling source file: C:\Users\User\Desktop\pp1lab.templateAST\workspace\MJCompiler\test\test01.mj
+INFO  16:55:30,266 - #2 program
+INFO  16:55:30,267 - #46 myProgram
+INFO  16:55:30,267 - #46 int
+INFO  16:55:30,269 - #46 l1
+INFO  16:55:30,270 - #11 ;
+INFO  16:55:30,273 - #46 int
+INFO  16:55:30,275 - #46 globArr
+INFO  16:55:30,275 - #12 [
+INFO  16:55:30,275 - #13 ]
+INFO  16:55:30,275 - #11 ;
+INFO  16:55:30,277 - #5 const
+INFO  16:55:30,277 - #46 int
+INFO  16:55:30,277 - #46 N
+INFO  16:55:30,277 - #8 =
+INFO  16:55:30,277 - #47 5
+INFO  16:55:30,278 - #11 ;
+INFO  16:55:30,280 - #3 {
+INFO  16:55:30,282 - #20 void
+INFO  16:55:30,283 - #46 main
+INFO  16:55:30,285 - #18 (
+INFO  16:55:30,285 - #19 )
+INFO  16:55:30,287 - #46 int
+INFO  16:55:30,289 - #46 a
+INFO  16:55:30,289 - #9 ,
+INFO  16:55:30,289 - #46 b
+INFO  16:55:30,289 - #11 ;
+INFO  16:55:30,289 - #46 int
+INFO  16:55:30,290 - #46 v1
+INFO  16:55:30,290 - #11 ;
+INFO  16:55:30,290 - #46 int
+INFO  16:55:30,290 - #46 arr
+INFO  16:55:30,290 - #12 [
+INFO  16:55:30,290 - #13 ]
+INFO  16:55:30,290 - #11 ;
+INFO  16:55:30,290 - #46 int
+INFO  16:55:30,290 - #46 v3
+INFO  16:55:30,291 - #9 ,
+INFO  16:55:30,291 - #46 v2
+INFO  16:55:30,291 - #11 ;
+INFO  16:55:30,291 - #46 char
+INFO  16:55:30,291 - #46 c1
+INFO  16:55:30,291 - #11 ;
+INFO  16:55:30,291 - #3 {
+ERROR 16:55:30,291 - 
+Sintaksna greska na liniji 12
+ERROR 16:55:30,291 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 12
